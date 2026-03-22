@@ -1,0 +1,108 @@
+CRITICAL - 2026-03-22 02:25:01 --> firmafilter filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 493.
+ 1 SYSTEMPATH\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('firmafilter')
+ 2 SYSTEMPATH\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('C:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-22 02:25:23 --> firmafilter filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 493.
+ 1 SYSTEMPATH\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('firmafilter')
+ 2 SYSTEMPATH\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('C:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-22 02:25:44 --> firmafilter filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 493.
+ 1 SYSTEMPATH\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('firmafilter')
+ 2 SYSTEMPATH\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('C:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-22 02:26:36 --> firmafilter filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 493.
+ 1 SYSTEMPATH\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('firmafilter')
+ 2 SYSTEMPATH\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('C:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-03-22 02:27:32 --> mysqli_sql_exception: Table 'qrmenu.firmalar' doesn't exist in C:\xampp\htdocs\qrmenumonline\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\qrmenumonline\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\qrmenumonline\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\qrmenumonline\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\qrmenumonline\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\qrmenumonline\app\Filters\FirmaFilter.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\qrmenumonline\system\Filters\Filters.php(173): App\Filters\FirmaFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#6 C:\xampp\htdocs\qrmenumonline\system\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('/', 'before')
+#7 C:\xampp\htdocs\qrmenumonline\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\qrmenumonline\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-03-22 02:27:32 --> Table 'qrmenu.firmalar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `firmalar`
+WHERE `firma_ad` = \'supervisor\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `firmalar`
+WHERE `firma_ad` = \'supervisor\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `firmalar`
+WHERE `firma_ad` = \'supervisor\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `firmalar`
+WHERE `firma_ad` = :firma_ad:', [...], false)
+ 5 APPPATH\Filters\FirmaFilter.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Filters\Filters.php(173): App\Filters\FirmaFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-03-22 02:27:57 --> mysqli_sql_exception: Table 'qrmenu.firmalar' doesn't exist in C:\xampp\htdocs\qrmenumonline\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\qrmenumonline\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\qrmenumonline\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\qrmenumonline\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\qrmenumonline\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\qrmenumonline\app\Filters\FirmaFilter.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\qrmenumonline\system\Filters\Filters.php(173): App\Filters\FirmaFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#6 C:\xampp\htdocs\qrmenumonline\system\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('/', 'before')
+#7 C:\xampp\htdocs\qrmenumonline\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\qrmenumonline\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-03-22 02:27:57 --> Table 'qrmenu.firmalar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `firmalar`
+WHERE `firma_ad` = \'supervisor\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `firmalar`
+WHERE `firma_ad` = \'supervisor\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `firmalar`
+WHERE `firma_ad` = \'supervisor\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `firmalar`
+WHERE `firma_ad` = :firma_ad:', [...], false)
+ 5 APPPATH\Filters\FirmaFilter.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Filters\Filters.php(173): App\Filters\FirmaFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-22 02:28:11 --> Undefined variable $firma
+in APPPATH\Controllers\Anasayfa.php on line 26.
+ 1 APPPATH\Controllers\Anasayfa.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $firma', 'APPPATH\\Controllers\\Anasayfa.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-22 02:29:10 --> Attempt to read property "template" on null
+in APPPATH\Controllers\Anasayfa.php on line 26.
+ 1 APPPATH\Controllers\Anasayfa.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "template" on null', 'APPPATH\\Controllers\\Anasayfa.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

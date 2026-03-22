@@ -1,0 +1,11 @@
+CRITICAL - 2023-05-24 21:55:24 --> Undefined array key "id"
+in APPPATH\Views\menu.php on line 64.
+ 1 APPPATH\Views\menu.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\menu.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('menu', [], true)
+ 5 APPPATH\Controllers\Anasayfa.php(17): view('menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

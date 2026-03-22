@@ -1,0 +1,1490 @@
+CRITICAL - 2022-08-18 08:22:07 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 14.
+ 1 APPPATH\Views\ipBulView.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:22:22 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 14.
+ 1 APPPATH\Views\ipBulView.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:24:12 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 11.
+ 1 APPPATH\Views\ipBulView.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:24:13 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 11.
+ 1 APPPATH\Views\ipBulView.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:24:13 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 11.
+ 1 APPPATH\Views\ipBulView.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:24:13 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 11.
+ 1 APPPATH\Views\ipBulView.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:24:14 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 11.
+ 1 APPPATH\Views\ipBulView.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:25:00 --> Undefined variable $data
+in APPPATH\Controllers\Home.php on line 11.
+ 1 APPPATH\Controllers\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Home.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:25:00 --> Undefined variable $data
+in APPPATH\Controllers\Home.php on line 11.
+ 1 APPPATH\Controllers\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Home.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:25:01 --> Undefined variable $data
+in APPPATH\Controllers\Home.php on line 11.
+ 1 APPPATH\Controllers\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Home.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:25:01 --> Undefined variable $data
+in APPPATH\Controllers\Home.php on line 11.
+ 1 APPPATH\Controllers\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Home.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:25:01 --> Undefined variable $data
+in APPPATH\Controllers\Home.php on line 11.
+ 1 APPPATH\Controllers\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Home.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:25:02 --> Undefined variable $data
+in APPPATH\Controllers\Home.php on line 11.
+ 1 APPPATH\Controllers\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Home.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:25:39 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 11.
+ 1 APPPATH\Views\ipBulView.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:25:40 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 11.
+ 1 APPPATH\Views\ipBulView.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:25:40 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 11.
+ 1 APPPATH\Views\ipBulView.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:25:40 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 11.
+ 1 APPPATH\Views\ipBulView.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:25:40 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 11.
+ 1 APPPATH\Views\ipBulView.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:26:18 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 11.
+ 1 APPPATH\Views\ipBulView.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->ipBul()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:29:45 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 11.
+ 1 APPPATH\Views\ipBulView.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->ipBul()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:30:29 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ipTakip\app\Controllers\Home.php on line 34
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Home.php(34): view('ipBulView', 'deneme mesajı')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:30:34 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ipTakip\app\Controllers\Home.php on line 34
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Home.php(34): view('ipBulView', 'deneme mesajı')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:31:49 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ipTakip\app\Controllers\Home.php on line 34
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Home.php(34): view('ipBulView', 'deneme mesajı')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:31:49 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ipTakip\app\Controllers\Home.php on line 34
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Home.php(34): view('ipBulView', 'deneme mesajı')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:31:50 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ipTakip\app\Controllers\Home.php on line 34
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Home.php(34): view('ipBulView', 'deneme mesajı')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:31:50 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ipTakip\app\Controllers\Home.php on line 34
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Home.php(34): view('ipBulView', 'deneme mesajı')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:31:50 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ipTakip\app\Controllers\Home.php on line 34
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Home.php(34): view('ipBulView', 'deneme mesajı')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:31:50 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ipTakip\app\Controllers\Home.php on line 34
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Home.php(34): view('ipBulView', 'deneme mesajı')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:31:50 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ipTakip\app\Controllers\Home.php on line 34
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Home.php(34): view('ipBulView', 'deneme mesajı')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:31:50 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ipTakip\app\Controllers\Home.php on line 34
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Home.php(34): view('ipBulView', 'deneme mesajı')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:31:51 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ipTakip\app\Controllers\Home.php on line 34
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Home.php(34): view('ipBulView', 'deneme mesajı')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:31:51 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ipTakip\app\Controllers\Home.php on line 34
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Home.php(34): view('ipBulView', 'deneme mesajı')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:31:51 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ipTakip\app\Controllers\Home.php on line 34
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Home.php(34): view('ipBulView', 'deneme mesajı')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:31:51 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ipTakip\app\Controllers\Home.php on line 34
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Home.php(34): view('ipBulView', 'deneme mesajı')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:31:51 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ipTakip\app\Controllers\Home.php on line 34
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Home.php(34): view('ipBulView', 'deneme mesajı')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:32:23 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ipTakip\app\Controllers\Home.php on line 34
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Home.php(34): view('ipBulView', 'deneme mesajı')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:32:23 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ipTakip\app\Controllers\Home.php on line 34
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Home.php(34): view('ipBulView', 'deneme mesajı')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:32:56 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ipTakip\app\Controllers\Home.php on line 34
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Home.php(34): view('ipBulView', 'deneme mesajı')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:32:57 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ipTakip\app\Controllers\Home.php on line 34
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Home.php(34): view('ipBulView', 'deneme mesajı')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:32:57 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ipTakip\app\Controllers\Home.php on line 34
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Home.php(34): view('ipBulView', 'deneme mesajı')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:33:45 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ipTakip\app\Controllers\Home.php on line 35
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Home.php(35): view('ipBulView', 'deneme mesajı')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:35:43 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 11.
+ 1 APPPATH\Views\ipBulView.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:35:44 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 11.
+ 1 APPPATH\Views\ipBulView.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:38:38 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 12.
+ 1 APPPATH\Views\ipBulView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(37): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:38:39 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 12.
+ 1 APPPATH\Views\ipBulView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(37): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:41:09 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 12.
+ 1 APPPATH\Views\ipBulView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:41:10 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 12.
+ 1 APPPATH\Views\ipBulView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:41:10 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 12.
+ 1 APPPATH\Views\ipBulView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:41:10 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 12.
+ 1 APPPATH\Views\ipBulView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:41:10 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 12.
+ 1 APPPATH\Views\ipBulView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:41:11 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 12.
+ 1 APPPATH\Views\ipBulView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:41:11 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 12.
+ 1 APPPATH\Views\ipBulView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:41:11 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 12.
+ 1 APPPATH\Views\ipBulView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:41:11 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 12.
+ 1 APPPATH\Views\ipBulView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:41:11 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 12.
+ 1 APPPATH\Views\ipBulView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:41:11 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 12.
+ 1 APPPATH\Views\ipBulView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:41:12 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 12.
+ 1 APPPATH\Views\ipBulView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:41:12 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 12.
+ 1 APPPATH\Views\ipBulView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:41:12 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 12.
+ 1 APPPATH\Views\ipBulView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:41:12 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 12.
+ 1 APPPATH\Views\ipBulView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:41:12 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 12.
+ 1 APPPATH\Views\ipBulView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:42:25 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\ipBulView.php on line 12.
+ 1 APPPATH\Views\ipBulView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\ipBulView.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:42:26 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\ipBulView.php on line 12.
+ 1 APPPATH\Views\ipBulView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\ipBulView.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:44:10 --> Cannot access offset of type string on string
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 4 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:45:08 --> Cannot access offset of type string on string
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 4 APPPATH\Controllers\Home.php(16): view('ipBulView', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:45:15 --> Cannot access offset of type string on string
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 4 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:46:07 --> Trying to access array offset on value of type int
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 APPPATH\Views\ipBulView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\ipBulView.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:46:07 --> Trying to access array offset on value of type int
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 APPPATH\Views\ipBulView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\ipBulView.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:46:08 --> Trying to access array offset on value of type int
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 APPPATH\Views\ipBulView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\ipBulView.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:46:08 --> Trying to access array offset on value of type int
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 APPPATH\Views\ipBulView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\ipBulView.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:46:08 --> Trying to access array offset on value of type int
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 APPPATH\Views\ipBulView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\ipBulView.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:46:08 --> Trying to access array offset on value of type int
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 APPPATH\Views\ipBulView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\ipBulView.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:47:06 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 12.
+ 1 APPPATH\Views\ipBulView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:47:07 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 12.
+ 1 APPPATH\Views\ipBulView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:47:07 --> Undefined variable $data
+in APPPATH\Views\ipBulView.php on line 12.
+ 1 APPPATH\Views\ipBulView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\ipBulView.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:48:34 --> Trying to access array offset on value of type int
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 APPPATH\Views\ipBulView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\ipBulView.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:50:43 --> Trying to access array offset on value of type int
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 APPPATH\Views\ipBulView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\ipBulView.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:50:44 --> Trying to access array offset on value of type int
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 APPPATH\Views\ipBulView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\ipBulView.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:50:44 --> Trying to access array offset on value of type int
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 APPPATH\Views\ipBulView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\ipBulView.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:50:44 --> Trying to access array offset on value of type int
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 APPPATH\Views\ipBulView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\ipBulView.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:50:45 --> Trying to access array offset on value of type int
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 APPPATH\Views\ipBulView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\ipBulView.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:50:45 --> Trying to access array offset on value of type int
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 APPPATH\Views\ipBulView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\ipBulView.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:50:45 --> Trying to access array offset on value of type int
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 APPPATH\Views\ipBulView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\ipBulView.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:50:45 --> Trying to access array offset on value of type int
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 APPPATH\Views\ipBulView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\ipBulView.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:50:45 --> Trying to access array offset on value of type int
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 APPPATH\Views\ipBulView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\ipBulView.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:50:46 --> Trying to access array offset on value of type int
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 APPPATH\Views\ipBulView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\ipBulView.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:50:46 --> Trying to access array offset on value of type int
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 APPPATH\Views\ipBulView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\ipBulView.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:50:46 --> Trying to access array offset on value of type int
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 APPPATH\Views\ipBulView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\ipBulView.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:50:47 --> Trying to access array offset on value of type int
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 APPPATH\Views\ipBulView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\ipBulView.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:50:47 --> Trying to access array offset on value of type int
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 APPPATH\Views\ipBulView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\ipBulView.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:50:47 --> Trying to access array offset on value of type int
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 APPPATH\Views\ipBulView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\ipBulView.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:50:47 --> Trying to access array offset on value of type int
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 APPPATH\Views\ipBulView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\ipBulView.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:50:47 --> Trying to access array offset on value of type int
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 APPPATH\Views\ipBulView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\ipBulView.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:51:47 --> Cannot access offset of type string on string
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 4 APPPATH\Controllers\Home.php(16): view('ipBulView', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:51:50 --> Cannot access offset of type string on string
+in APPPATH\Views\ipBulView.php on line 15.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 4 APPPATH\Controllers\Home.php(38): view('ipBulView', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->deneme()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:56:03 --> Undefined variable $ad
+in APPPATH\Views\ipBulView.php on line 11.
+ 1 APPPATH\Views\ipBulView.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ad', 'APPPATH\\Views\\ipBulView.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:56:13 --> Undefined variable $ad
+in APPPATH\Views\ipBulView.php on line 11.
+ 1 APPPATH\Views\ipBulView.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ad', 'APPPATH\\Views\\ipBulView.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:56:14 --> Undefined variable $ad
+in APPPATH\Views\ipBulView.php on line 11.
+ 1 APPPATH\Views\ipBulView.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ad', 'APPPATH\\Views\\ipBulView.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:56:14 --> Undefined variable $ad
+in APPPATH\Views\ipBulView.php on line 11.
+ 1 APPPATH\Views\ipBulView.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ad', 'APPPATH\\Views\\ipBulView.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:56:14 --> Undefined variable $ad
+in APPPATH\Views\ipBulView.php on line 11.
+ 1 APPPATH\Views\ipBulView.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ad', 'APPPATH\\Views\\ipBulView.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:56:14 --> Undefined variable $ad
+in APPPATH\Views\ipBulView.php on line 11.
+ 1 APPPATH\Views\ipBulView.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ad', 'APPPATH\\Views\\ipBulView.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:56:14 --> Undefined variable $ad
+in APPPATH\Views\ipBulView.php on line 11.
+ 1 APPPATH\Views\ipBulView.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ad', 'APPPATH\\Views\\ipBulView.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 09:56:15 --> Undefined variable $ad
+in APPPATH\Views\ipBulView.php on line 11.
+ 1 APPPATH\Views\ipBulView.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ad', 'APPPATH\\Views\\ipBulView.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('ipBulView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-18 10:14:34 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ipTakip\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#4 C:\xampp\htdocs\ipTakip\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ipTakip\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ipTakip\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ipTakip\app\Controllers\Home.php(17): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ipTakip\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ipTakip\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#3 C:\xampp\htdocs\ipTakip\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\ipTakip\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\ipTakip\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\xampp\htdocs\ipTakip\app\Controllers\Home.php(17): CodeIgniter\Model->insert(Array)
+#7 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ipTakip\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-08-18 10:14:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ipsave` (`ip`) VALUES (:ip:)', [...], false)
+ 3 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Home.php(17): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-18 10:15:34 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ipTakip\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#4 C:\xampp\htdocs\ipTakip\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ipTakip\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ipTakip\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ipTakip\app\Controllers\Home.php(17): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ipTakip\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ipTakip\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#3 C:\xampp\htdocs\ipTakip\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\ipTakip\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\ipTakip\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\xampp\htdocs\ipTakip\app\Controllers\Home.php(17): CodeIgniter\Model->insert(Array)
+#7 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ipTakip\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-08-18 10:15:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ipsave` (`ip`, `date`) VALUES (:ip:, :date:)', [...], false)
+ 3 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Home.php(17): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-18 10:15:34 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ipTakip\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#4 C:\xampp\htdocs\ipTakip\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ipTakip\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ipTakip\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ipTakip\app\Controllers\Home.php(17): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ipTakip\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ipTakip\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#3 C:\xampp\htdocs\ipTakip\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\ipTakip\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\ipTakip\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\xampp\htdocs\ipTakip\app\Controllers\Home.php(17): CodeIgniter\Model->insert(Array)
+#7 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ipTakip\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-08-18 10:15:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ipsave` (`ip`, `date`) VALUES (:ip:, :date:)', [...], false)
+ 3 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Home.php(17): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-18 10:15:35 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ipTakip\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#4 C:\xampp\htdocs\ipTakip\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ipTakip\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ipTakip\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ipTakip\app\Controllers\Home.php(17): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ipTakip\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ipTakip\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#3 C:\xampp\htdocs\ipTakip\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\ipTakip\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\ipTakip\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\xampp\htdocs\ipTakip\app\Controllers\Home.php(17): CodeIgniter\Model->insert(Array)
+#7 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ipTakip\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-08-18 10:15:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ipsave` (`ip`, `date`) VALUES (:ip:, :date:)', [...], false)
+ 3 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Home.php(17): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-18 10:15:35 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ipTakip\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#4 C:\xampp\htdocs\ipTakip\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ipTakip\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ipTakip\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ipTakip\app\Controllers\Home.php(17): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ipTakip\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ipTakip\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#3 C:\xampp\htdocs\ipTakip\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\ipTakip\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\ipTakip\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\xampp\htdocs\ipTakip\app\Controllers\Home.php(17): CodeIgniter\Model->insert(Array)
+#7 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ipTakip\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-08-18 10:15:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ipsave` (`ip`, `date`) VALUES (:ip:, :date:)', [...], false)
+ 3 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Home.php(17): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-18 10:16:36 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ipTakip\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#4 C:\xampp\htdocs\ipTakip\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ipTakip\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ipTakip\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ipTakip\app\Controllers\Home.php(17): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ipTakip\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ipTakip\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#3 C:\xampp\htdocs\ipTakip\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\ipTakip\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\ipTakip\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\xampp\htdocs\ipTakip\app\Controllers\Home.php(17): CodeIgniter\Model->insert(Array)
+#7 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ipTakip\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-08-18 10:16:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ipsave` (`ip`, `date`) VALUES (:ip:, :date:)', [...], false)
+ 3 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Home.php(17): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-18 10:16:37 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ipTakip\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#4 C:\xampp\htdocs\ipTakip\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ipTakip\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ipTakip\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ipTakip\app\Controllers\Home.php(17): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ipTakip\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ipTakip\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#3 C:\xampp\htdocs\ipTakip\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\ipTakip\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\ipTakip\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\xampp\htdocs\ipTakip\app\Controllers\Home.php(17): CodeIgniter\Model->insert(Array)
+#7 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ipTakip\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-08-18 10:16:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ipsave` (`ip`, `date`) VALUES (:ip:, :date:)', [...], false)
+ 3 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Home.php(17): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-18 10:16:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ipTakip\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#4 C:\xampp\htdocs\ipTakip\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ipTakip\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ipTakip\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ipTakip\app\Controllers\Home.php(17): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ipTakip\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ipTakip\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#3 C:\xampp\htdocs\ipTakip\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\ipTakip\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\ipTakip\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\xampp\htdocs\ipTakip\app\Controllers\Home.php(17): CodeIgniter\Model->insert(Array)
+#7 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ipTakip\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-08-18 10:16:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ipsave` (`ip`, `date`) VALUES (:ip:, :date:)', [...], false)
+ 3 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Home.php(17): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-18 10:16:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ipTakip\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#4 C:\xampp\htdocs\ipTakip\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ipTakip\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ipTakip\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ipTakip\app\Controllers\Home.php(17): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ipTakip\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ipTakip\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#3 C:\xampp\htdocs\ipTakip\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\ipTakip\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\ipTakip\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\xampp\htdocs\ipTakip\app\Controllers\Home.php(17): CodeIgniter\Model->insert(Array)
+#7 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ipTakip\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-08-18 10:16:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ipsave` (`ip`, `date`) VALUES (:ip:, :date:)', [...], false)
+ 3 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Home.php(17): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-18 10:16:46 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ipTakip\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#4 C:\xampp\htdocs\ipTakip\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ipTakip\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ipTakip\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ipTakip\app\Controllers\Home.php(17): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ipTakip\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\ipTakip\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ipTakip\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ipTakip\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#3 C:\xampp\htdocs\ipTakip\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\ipTakip\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\ipTakip\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\xampp\htdocs\ipTakip\app\Controllers\Home.php(17): CodeIgniter\Model->insert(Array)
+#7 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\ipTakip\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ipTakip\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-08-18 10:16:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ipsave` (`ip`, `date`) VALUES (:ip:, :date:)', [...], false)
+ 3 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Home.php(17): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 10:20:13 --> date() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Home.php on line 12.
+ 1 APPPATH\Controllers\Home.php(12): date()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 10:57:35 --> Undefined variable $ip
+in APPPATH\Views\ipBulView.php on line 11.
+ 1 APPPATH\Views\ipBulView.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ip', 'APPPATH\\Views\\ipBulView.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ipBulView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ipBulView', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('ipBulView')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->db()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 11:19:04 --> Trying to access array offset on value of type int
+in APPPATH\Views\dbShow.php on line 13.
+ 1 APPPATH\Views\dbShow.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\dbShow.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dbShow.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('dbShow', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('dbShow', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->db()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 11:20:20 --> Array to string conversion
+in APPPATH\Views\dbShow.php on line 13.
+ 1 APPPATH\Views\dbShow.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\dbShow.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dbShow.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('dbShow', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('dbShow', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->db()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

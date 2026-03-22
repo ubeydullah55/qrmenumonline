@@ -1,0 +1,137 @@
+ERROR - 2025-01-26 14:29:59 --> mysqli_sql_exception: Table 'qrmenu_test.settings' doesn't exist in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-01-26 14:29:59 --> Table 'qrmenu_test.settings' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `settings`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `settings`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `settings`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Anasayfa.php(15): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-26 14:30:05 --> mysqli_sql_exception: Table 'qrmenu_test.settings' doesn't exist in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\qrmenu\app\Helpers\settings_helper.php(6): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\qrmenu\app\Controllers\Login.php(12): settingsGet()
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Login->index()
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#10 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-01-26 14:30:05 --> Table 'qrmenu_test.settings' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `settings`
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `settings`
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `settings`
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Helpers\settings_helper.php(6): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Login.php(12): settingsGet()
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->index()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-26 14:31:01 --> mysqli_sql_exception: Table 'qrmenu_test.settings' doesn't exist in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\qrmenu\app\Helpers\settings_helper.php(6): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\qrmenu\app\Controllers\Login.php(12): settingsGet()
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Login->index()
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#10 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-01-26 14:31:01 --> Table 'qrmenu_test.settings' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `settings`
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `settings`
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `settings`
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Helpers\settings_helper.php(6): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Login.php(12): settingsGet()
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->index()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 14:48:15 --> unlink(./img/product/1727960271_a202c07c79c026ab158b.jpg): No such file or directory
+in APPPATH\Controllers\Home.php on line 210.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./img/product/1727960271_a202c07c79c026ab158b.jpg): No such file or directory', 'APPPATH\\Controllers\\Home.php', 210)
+ 2 APPPATH\Controllers\Home.php(210): unlink('./img/product/1727960271_a202c07c79c026ab158b.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->productEdit('54')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 14:48:33 --> unlink(./img/product/1727960271_a202c07c79c026ab158b.jpg): No such file or directory
+in APPPATH\Controllers\Home.php on line 153.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./img/product/1727960271_a202c07c79c026ab158b.jpg): No such file or directory', 'APPPATH\\Controllers\\Home.php', 153)
+ 2 APPPATH\Controllers\Home.php(153): unlink('./img/product/1727960271_a202c07c79c026ab158b.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->productsDelete('54')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 14:48:43 --> unlink(./img/product/1727960271_a202c07c79c026ab158b.jpg): No such file or directory
+in APPPATH\Controllers\Home.php on line 153.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./img/product/1727960271_a202c07c79c026ab158b.jpg): No such file or directory', 'APPPATH\\Controllers\\Home.php', 153)
+ 2 APPPATH\Controllers\Home.php(153): unlink('./img/product/1727960271_a202c07c79c026ab158b.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->productsDelete('54')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 14:48:45 --> unlink(./img/product/1727960271_a202c07c79c026ab158b.jpg): No such file or directory
+in APPPATH\Controllers\Home.php on line 153.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./img/product/1727960271_a202c07c79c026ab158b.jpg): No such file or directory', 'APPPATH\\Controllers\\Home.php', 153)
+ 2 APPPATH\Controllers\Home.php(153): unlink('./img/product/1727960271_a202c07c79c026ab158b.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->productsDelete('54')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

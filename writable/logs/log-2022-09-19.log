@@ -1,0 +1,1088 @@
+ERROR - 2022-09-19 15:06:17 --> Error connecting to the database: ErrorException: Packets out of order. Expected 0 received 1. Packet size=23 in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Packets out of ...', '/home/vol13_4/e...', 171, Array)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:06:17 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:06:23 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:06:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:06:29 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:06:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:06:36 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:06:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:06:52 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:06:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:06:59 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:06:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:07:03 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:07:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:08:35 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:08:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:08:38 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:08:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:08:39 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:08:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:09:39 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:09:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:09:42 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:09:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:11:18 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:11:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:11:19 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:11:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:11:27 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:11:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:11:54 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:11:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:14:21 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:14:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:14:30 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Login.php(24): CodeIgniter\BaseModel->first()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Login->kontrol()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Login.php(24): CodeIgniter\BaseModel->first()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Login->kontrol()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:14:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kullanici`
+WHERE `k_adi` = :k_adi:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Login.php(24): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Login->kontrol()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:16:45 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Login.php(24): CodeIgniter\BaseModel->first()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Login->kontrol()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Login.php(24): CodeIgniter\BaseModel->first()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Login->kontrol()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:16:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kullanici`
+WHERE `k_adi` = :k_adi:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Login.php(24): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Login->kontrol()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:16:47 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Login.php(24): CodeIgniter\BaseModel->first()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Login->kontrol()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Login.php(24): CodeIgniter\BaseModel->first()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Login->kontrol()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:16:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kullanici`
+WHERE `k_adi` = :k_adi:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Login.php(24): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Login->kontrol()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:18:04 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:18:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:19:15 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(15): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(15): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:19:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:19:17 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(15): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(15): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:19:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:19:18 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(15): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(15): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:19:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:19:21 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(15): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(15): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:19:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 15:19:25 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(15): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(15): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 15:19:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

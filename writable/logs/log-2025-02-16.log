@@ -1,0 +1,329 @@
+ERROR - 2025-02-16 14:50:46 --> mysqli_sql_exception: Table 'qrmenu.settings' doesn't exist in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-02-16 14:50:46 --> Table 'qrmenu.settings' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `settings`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `settings`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `settings`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Anasayfa.php(15): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-16 16:31:20 --> mysqli_sql_exception: Table 'qrmenu.settings' doesn't exist in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-02-16 16:31:20 --> Table 'qrmenu.settings' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `settings`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `settings`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `settings`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Anasayfa.php(15): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-16 16:59:42 --> Undefined variable $settings
+in APPPATH\Views\backend\include\leftmenu.php on line 6.
+ 1 APPPATH\Views\backend\include\leftmenu.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $settings', 'APPPATH\\Views\\backend\\include\\leftmenu.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\include\\leftmenu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('backend/include/leftmenu', null, true)
+ 5 APPPATH\Views\backend\panel.php(6): CodeIgniter\View\View->include('backend/include/leftmenu')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\panel.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/panel', [], true)
+ 9 APPPATH\Controllers\Home.php(38): view('backend/panel', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->panel()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-16 17:00:31 --> Undefined variable $settings
+in APPPATH\Views\backend\include\leftmenu.php on line 6.
+ 1 APPPATH\Views\backend\include\leftmenu.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $settings', 'APPPATH\\Views\\backend\\include\\leftmenu.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\include\\leftmenu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('backend/include/leftmenu', null, true)
+ 5 APPPATH\Views\backend\panel.php(6): CodeIgniter\View\View->include('backend/include/leftmenu')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\panel.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/panel', [], true)
+ 9 APPPATH\Controllers\Home.php(38): view('backend/panel', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->panel()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-16 17:00:32 --> Undefined variable $settings
+in APPPATH\Views\backend\include\leftmenu.php on line 6.
+ 1 APPPATH\Views\backend\include\leftmenu.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $settings', 'APPPATH\\Views\\backend\\include\\leftmenu.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\include\\leftmenu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('backend/include/leftmenu', null, true)
+ 5 APPPATH\Views\backend\panel.php(6): CodeIgniter\View\View->include('backend/include/leftmenu')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\panel.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/panel', [], true)
+ 9 APPPATH\Controllers\Home.php(38): view('backend/panel', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->panel()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-16 17:00:32 --> Undefined variable $settings
+in APPPATH\Views\backend\include\leftmenu.php on line 6.
+ 1 APPPATH\Views\backend\include\leftmenu.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $settings', 'APPPATH\\Views\\backend\\include\\leftmenu.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\include\\leftmenu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('backend/include/leftmenu', null, true)
+ 5 APPPATH\Views\backend\panel.php(6): CodeIgniter\View\View->include('backend/include/leftmenu')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\panel.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/panel', [], true)
+ 9 APPPATH\Controllers\Home.php(38): view('backend/panel', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->panel()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-16 17:14:30 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\backend\include\leftmenu.php on line 149.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('backend/include/leftmenu', null, true)
+ 3 APPPATH\Views\backend\settingsView.php(6): CodeIgniter\View\View->include('backend/include/leftmenu')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\settingsView.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('/backend/settingsView', [], true)
+ 7 APPPATH\Config\Routes.php(81): view('/backend/settingsView', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(845): CodeIgniter\CodeIgniter::Config\{closure}()
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-16 17:22:46 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\/backend/statusView
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\/backend/statusView')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('panel/statusView')
+ 3 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('panel/statusView')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-16 17:24:20 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\/backend/statusView
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\/backend/statusView')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('panel/statusView')
+ 3 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('panel/statusView')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-16 17:29:36 --> Undefined variable $settings
+in APPPATH\Views\backend\statusView.php on line 61.
+ 1 APPPATH\Views\backend\statusView.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $settings', 'APPPATH\\Views\\backend\\statusView.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\statusView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/statusView', [], true)
+ 5 APPPATH\Controllers\Home.php(493): view('backend/statusView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->statusView()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-16 17:30:30 --> Undefined array key "garson_cagir"
+in APPPATH\Views\backend\statusView.php on line 61.
+ 1 APPPATH\Views\backend\statusView.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "garson_cagir"', 'APPPATH\\Views\\backend\\statusView.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\statusView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/statusView', [], true)
+ 5 APPPATH\Controllers\Home.php(493): view('backend/statusView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->statusView()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-16 17:33:03 --> Undefined array key "garson_cagir"
+in APPPATH\Views\backend\statusView.php on line 61.
+ 1 APPPATH\Views\backend\statusView.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "garson_cagir"', 'APPPATH\\Views\\backend\\statusView.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\statusView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/statusView', [], true)
+ 5 APPPATH\Controllers\Home.php(493): view('backend/statusView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->statusView()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-16 17:33:04 --> Undefined array key "garson_cagir"
+in APPPATH\Views\backend\statusView.php on line 61.
+ 1 APPPATH\Views\backend\statusView.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "garson_cagir"', 'APPPATH\\Views\\backend\\statusView.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\statusView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/statusView', [], true)
+ 5 APPPATH\Controllers\Home.php(493): view('backend/statusView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->statusView()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-16 17:33:05 --> Undefined array key "garson_cagir"
+in APPPATH\Views\backend\statusView.php on line 61.
+ 1 APPPATH\Views\backend\statusView.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "garson_cagir"', 'APPPATH\\Views\\backend\\statusView.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\statusView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/statusView', [], true)
+ 5 APPPATH\Controllers\Home.php(493): view('backend/statusView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->statusView()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-16 17:33:38 --> Undefined array key "garson_cagir"
+in APPPATH\Views\backend\statusView.php on line 61.
+ 1 APPPATH\Views\backend\statusView.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "garson_cagir"', 'APPPATH\\Views\\backend\\statusView.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\statusView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/statusView', [], true)
+ 5 APPPATH\Controllers\Home.php(493): view('backend/statusView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->statusView()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-16 17:33:39 --> Undefined array key "garson_cagir"
+in APPPATH\Views\backend\statusView.php on line 61.
+ 1 APPPATH\Views\backend\statusView.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "garson_cagir"', 'APPPATH\\Views\\backend\\statusView.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\statusView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/statusView', [], true)
+ 5 APPPATH\Controllers\Home.php(493): view('backend/statusView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->statusView()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-16 17:33:40 --> Undefined array key "garson_cagir"
+in APPPATH\Views\backend\statusView.php on line 61.
+ 1 APPPATH\Views\backend\statusView.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "garson_cagir"', 'APPPATH\\Views\\backend\\statusView.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\statusView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/statusView', [], true)
+ 5 APPPATH\Controllers\Home.php(493): view('backend/statusView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->statusView()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-16 17:33:42 --> Undefined array key "garson_cagir"
+in APPPATH\Views\backend\statusView.php on line 61.
+ 1 APPPATH\Views\backend\statusView.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "garson_cagir"', 'APPPATH\\Views\\backend\\statusView.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\statusView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/statusView', [], true)
+ 5 APPPATH\Controllers\Home.php(493): view('backend/statusView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->statusView()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-16 17:33:43 --> Undefined array key "garson_cagir"
+in APPPATH\Views\backend\statusView.php on line 61.
+ 1 APPPATH\Views\backend\statusView.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "garson_cagir"', 'APPPATH\\Views\\backend\\statusView.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\statusView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/statusView', [], true)
+ 5 APPPATH\Controllers\Home.php(493): view('backend/statusView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->statusView()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-16 17:33:43 --> Undefined array key "garson_cagir"
+in APPPATH\Views\backend\statusView.php on line 61.
+ 1 APPPATH\Views\backend\statusView.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "garson_cagir"', 'APPPATH\\Views\\backend\\statusView.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\statusView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/statusView', [], true)
+ 5 APPPATH\Controllers\Home.php(493): view('backend/statusView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->statusView()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-16 17:33:44 --> Undefined array key "garson_cagir"
+in APPPATH\Views\backend\statusView.php on line 61.
+ 1 APPPATH\Views\backend\statusView.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "garson_cagir"', 'APPPATH\\Views\\backend\\statusView.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\statusView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/statusView', [], true)
+ 5 APPPATH\Controllers\Home.php(493): view('backend/statusView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->statusView()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-16 17:33:44 --> Undefined array key "garson_cagir"
+in APPPATH\Views\backend\statusView.php on line 61.
+ 1 APPPATH\Views\backend\statusView.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "garson_cagir"', 'APPPATH\\Views\\backend\\statusView.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\statusView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/statusView', [], true)
+ 5 APPPATH\Controllers\Home.php(493): view('backend/statusView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->statusView()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-16 17:33:45 --> Undefined array key "garson_cagir"
+in APPPATH\Views\backend\statusView.php on line 61.
+ 1 APPPATH\Views\backend\statusView.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "garson_cagir"', 'APPPATH\\Views\\backend\\statusView.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\statusView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/statusView', [], true)
+ 5 APPPATH\Controllers\Home.php(493): view('backend/statusView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->statusView()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-16 18:34:14 --> unlink(./img/product/1727960271_a202c07c79c026ab158b.jpg): No such file or directory
+in APPPATH\Controllers\Home.php on line 153.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./img/product/1727960271_a202c07c79c026ab158b.jpg): No such file or directory', 'APPPATH\\Controllers\\Home.php', 153)
+ 2 APPPATH\Controllers\Home.php(153): unlink('./img/product/1727960271_a202c07c79c026ab158b.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->productsDelete('54')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-16 18:34:17 --> unlink(./img/product/1727960271_a202c07c79c026ab158b.jpg): No such file or directory
+in APPPATH\Controllers\Home.php on line 153.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./img/product/1727960271_a202c07c79c026ab158b.jpg): No such file or directory', 'APPPATH\\Controllers\\Home.php', 153)
+ 2 APPPATH\Controllers\Home.php(153): unlink('./img/product/1727960271_a202c07c79c026ab158b.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->productsDelete('54')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-16 18:34:28 --> unlink(./img/product/1727960271_a202c07c79c026ab158b.jpg): No such file or directory
+in APPPATH\Controllers\Home.php on line 153.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./img/product/1727960271_a202c07c79c026ab158b.jpg): No such file or directory', 'APPPATH\\Controllers\\Home.php', 153)
+ 2 APPPATH\Controllers\Home.php(153): unlink('./img/product/1727960271_a202c07c79c026ab158b.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->productsDelete('54')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

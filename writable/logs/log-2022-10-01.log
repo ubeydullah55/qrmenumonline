@@ -1,0 +1,752 @@
+CRITICAL - 2022-10-01 00:10:51 --> Undefined array key "id"
+in APPPATH\Views\menu.php on line 62.
+ 1 APPPATH\Views\menu.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\menu.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('menu', [], true)
+ 5 APPPATH\Controllers\Anasayfa.php(17): view('menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-01 20:04:51 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'qrmenu_test', 3306, '', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-01 20:04:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'qrmenu_test'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-01 20:04:57 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'qrmenu_test', 3306, '', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-01 20:04:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'qrmenu_test'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-01 20:05:03 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'qrmenu_test', 3306, '', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-01 20:05:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'qrmenu_test'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-01 20:05:13 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'qrmenu_test', 3306, '', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-01 20:05:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'qrmenu_test'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-01 20:05:25 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'qrmenu_test', 3306, '', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-01 20:05:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'qrmenu_test'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-01 20:05:27 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'qrmenu_test', 3306, '', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-01 20:05:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'qrmenu_test'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-01 20:07:00 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'qrmenu_test', 3306, '', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-01 20:07:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'qrmenu_test'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-01 20:07:03 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'qrmenu_test', 3306, '', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-01 20:07:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'qrmenu_test'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-01 20:07:04 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'qrmenu_test', 3306, '', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-01 20:07:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'qrmenu_test'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-01 20:07:06 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'qrmenu_test', 3306, '', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-01 20:07:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'qrmenu_test'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-01 20:10:46 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'qrmenu_test', 3306, '', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-01 20:10:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'qrmenu_test'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-01 20:12:29 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'qrmenu_test', 3306, '', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-01 20:12:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'qrmenu_test'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-01 20:12:32 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'qrmenu_test', 3306, '', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-01 20:12:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'qrmenu_test'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-01 20:12:34 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'qrmenu_test', 3306, '', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-01 20:12:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'qrmenu_test'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-01 20:12:40 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'qrmenu_test', 3306, '', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\qrmenu\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\qrmenu\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\qrmenu\app\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-01 20:12:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'qrmenu_test'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-01 20:13:29 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'qrmenu_test', 3306, '', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\qrmenu\app\Controllers\Login.php(24): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Login->kontrol()
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'qrmenu_test' in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\qrmenu\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\qrmenu\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\qrmenu\app\Controllers\Login.php(24): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Login->kontrol()
+#7 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-01 20:13:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'qrmenu_test'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kullanici`
+WHERE `k_adi` = :k_adi:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(24): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->kontrol()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 20:20:36 --> Undefined array key "id"
+in APPPATH\Views\menu.php on line 62.
+ 1 APPPATH\Views\menu.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\menu.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('menu', [], true)
+ 5 APPPATH\Controllers\Anasayfa.php(17): view('menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 20:27:16 --> Undefined array key "id"
+in APPPATH\Views\menu.php on line 62.
+ 1 APPPATH\Views\menu.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\menu.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('menu', [], true)
+ 5 APPPATH\Controllers\Anasayfa.php(17): view('menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 22:56:27 --> Undefined variable $data
+in APPPATH\Config\Routes.php on line 60.
+ 1 APPPATH\Config\Routes.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Config\\Routes.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(845): CodeIgniter\CodeIgniter::Config\{closure}()
+ 3 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 23:50:04 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1577.
+ 1 SYSTEMPATH\BaseModel.php(1577): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(null, 'insert')
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert(null, true)
+ 4 APPPATH\Controllers\Home.php(399): CodeIgniter\Model->insert()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->employeInsert()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-01 23:50:50 --> mysqli_sql_exception: Column 'k_adi' cannot be null in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ku...', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ku...')
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ku...')
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ku...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\qrmenu\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\qrmenu\app\Controllers\Home.php(399): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Home->employeInsert()
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-01 23:52:01 --> mysqli_sql_exception: Column 'k_adi' cannot be null in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ku...', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ku...')
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ku...')
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ku...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\qrmenu\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\qrmenu\app\Controllers\Home.php(400): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Home->employeInsert()
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-10-01 23:54:36 --> Undefined variable $employeNo
+in APPPATH\Controllers\Home.php on line 392.
+ 1 APPPATH\Controllers\Home.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employeNo', 'APPPATH\\Controllers\\Home.php', 392)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->employeInsert()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 23:54:39 --> Undefined variable $employeNo
+in APPPATH\Controllers\Home.php on line 392.
+ 1 APPPATH\Controllers\Home.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employeNo', 'APPPATH\\Controllers\\Home.php', 392)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->employeInsert()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

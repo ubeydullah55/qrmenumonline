@@ -1,0 +1,140 @@
+CRITICAL - 2022-09-10 19:45:28 --> Undefined array key "id"
+in APPPATH\Views\menu.php on line 62.
+ 1 APPPATH\Views\menu.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\menu.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('menu', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 19:45:38 --> Undefined array key "id"
+in APPPATH\Views\menu.php on line 62.
+ 1 APPPATH\Views\menu.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\menu.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('menu', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 19:56:51 --> Too few arguments to function CodeIgniter\HTTP\RedirectResponse::to(), 0 passed in C:\xampp\htdocs\qrmenu\app\Controllers\Home.php on line 329 and at least 1 expected
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Home.php(329): CodeIgniter\HTTP\RedirectResponse->to()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->call('2')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 19:58:22 --> Too few arguments to function CodeIgniter\HTTP\RedirectResponse::to(), 0 passed in C:\xampp\htdocs\qrmenu\app\Controllers\Home.php on line 329 and at least 1 expected
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Home.php(329): CodeIgniter\HTTP\RedirectResponse->to()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->call('2')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 19:58:49 --> Undefined constant "App\Controllers\base_url"
+in APPPATH\Controllers\Home.php on line 329.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->call('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 19:59:45 --> The route for "http://localhost/qrmenu" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/qrmenu')
+ 2 SYSTEMPATH\Common.php(864): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Home.php(329): redirect('http://localhost/qrmenu')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->call('2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 19:59:54 --> The route for "http://localhost/qrmenu/index" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/qrmenu/index')
+ 2 SYSTEMPATH\Common.php(864): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Home.php(329): redirect('http://localhost/qrmenu/index')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->call('2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:00:06 --> The route for "http://localhost/qrmenu" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/qrmenu')
+ 2 SYSTEMPATH\Common.php(864): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Home.php(329): redirect('http://localhost/qrmenu')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->call('2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:00:43 --> Undefined array key "id"
+in APPPATH\Views\menu.php on line 62.
+ 1 APPPATH\Views\menu.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\menu.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('menu', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:01:10 --> Undefined array key "id"
+in APPPATH\Views\menu.php on line 62.
+ 1 APPPATH\Views\menu.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\menu.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('menu', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:04:34 --> Undefined array key "id"
+in APPPATH\Views\menu.php on line 62.
+ 1 APPPATH\Views\menu.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\menu.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('menu', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:35:41 --> Undefined array key "is_active"
+in APPPATH\Views\backend\callView.php on line 82.
+ 1 APPPATH\Views\backend\callView.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "is_active"', 'APPPATH\\Views\\backend\\callView.php', 82)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\callView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/callView', [], true)
+ 5 APPPATH\Controllers\Home.php(351): view('backend/callView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->call_view()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:38:06 --> Invalid file: callView.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('callView.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('callView', [], true)
+ 3 APPPATH\Controllers\Home.php(352): view('callView', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->call_view()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:44:33 --> syntax error, unexpected variable "$row", expecting "," or ";"
+in APPPATH\Views\backend\callView.php on line 79.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/callView', [], true)
+ 3 APPPATH\Controllers\Home.php(352): view('backend/callView', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->call_view()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:46:36 --> syntax error, unexpected variable "$row", expecting "," or ";"
+in APPPATH\Views\backend\callView.php on line 79.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/callView', [], true)
+ 3 APPPATH\Controllers\Home.php(352): view('backend/callView', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->call_view()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

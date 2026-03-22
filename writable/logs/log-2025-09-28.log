@@ -1,0 +1,1706 @@
+CRITICAL - 2025-09-28 16:59:03 --> Undefined variable $settings
+in APPPATH\Views\backend\qrcode.php on line 44.
+ 1 APPPATH\Views\backend\qrcode.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $settings', 'APPPATH\\Views\\backend\\qrcode.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\qrcode.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/qrcode', [], true)
+ 5 APPPATH\Controllers\Home.php(531): view('backend/qrcode')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:07:07 --> Undefined variable $url
+in APPPATH\Views\backend\qrcode.php on line 43.
+ 1 APPPATH\Views\backend\qrcode.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $url', 'APPPATH\\Views\\backend\\qrcode.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\qrcode.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/qrcode', [], true)
+ 5 APPPATH\Controllers\Home.php(549): view('backend/qrcode', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:33:47 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 533.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:33:54 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 533.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:34:45 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 537.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:34:46 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 537.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:34:46 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 537.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:34:46 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 537.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:34:47 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 537.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:37:47 --> Class "vendor\chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 537.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:37:48 --> Class "vendor\chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 537.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:37:53 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 537.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:39:32 --> require_once(C:\xampp\htdocs\qrmenum\vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 4.
+ 1 APPPATH\Controllers\Home.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\qrmenum\\vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 4)
+ 2 APPPATH\Controllers\Home.php(4): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:39:36 --> require_once(C:\xampp\htdocs\qrmenum\vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 4.
+ 1 APPPATH\Controllers\Home.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\qrmenum\\vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 4)
+ 2 APPPATH\Controllers\Home.php(4): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:39:37 --> require_once(C:\xampp\htdocs\qrmenum\vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 4.
+ 1 APPPATH\Controllers\Home.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\qrmenum\\vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 4)
+ 2 APPPATH\Controllers\Home.php(4): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:44:59 --> require_once(C:\xampp\htdocs\qrmenum\vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 4.
+ 1 APPPATH\Controllers\Home.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\qrmenum\\vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 4)
+ 2 APPPATH\Controllers\Home.php(4): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:44:59 --> require_once(C:\xampp\htdocs\qrmenum\vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 4.
+ 1 APPPATH\Controllers\Home.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\qrmenum\\vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 4)
+ 2 APPPATH\Controllers\Home.php(4): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:46:54 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 534.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:46:55 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 534.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:46:55 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 534.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:47:03 --> require_once(C:\xampp\htdocs\qrmenum\vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 5.
+ 1 APPPATH\Controllers\Home.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\qrmenum\\vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 5)
+ 2 APPPATH\Controllers\Home.php(5): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:47:08 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 536.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:51:13 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 536.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:51:14 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 536.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:51:14 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 536.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:51:14 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 536.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:51:14 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 536.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:51:15 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 536.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:51:15 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 536.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:51:15 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 536.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:51:15 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 536.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:51:15 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 536.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:51:15 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 536.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:52:39 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 537.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:52:39 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 537.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:52:39 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 537.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:52:39 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 537.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:54:01 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 536.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:55:33 --> require_once(C:\xampp\htdocs\qrmenum\app\Controllers/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 7.
+ 1 APPPATH\Controllers\Home.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\qrmenum\\app\\Controllers/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 7)
+ 2 APPPATH\Controllers\Home.php(7): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:55:33 --> require_once(C:\xampp\htdocs\qrmenum\app\Controllers/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 7.
+ 1 APPPATH\Controllers\Home.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\qrmenum\\app\\Controllers/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 7)
+ 2 APPPATH\Controllers\Home.php(7): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:55:34 --> require_once(C:\xampp\htdocs\qrmenum\app\Controllers/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 7.
+ 1 APPPATH\Controllers\Home.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\qrmenum\\app\\Controllers/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 7)
+ 2 APPPATH\Controllers\Home.php(7): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:55:34 --> require_once(C:\xampp\htdocs\qrmenum\app\Controllers/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 7.
+ 1 APPPATH\Controllers\Home.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\qrmenum\\app\\Controllers/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 7)
+ 2 APPPATH\Controllers\Home.php(7): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:55:34 --> require_once(C:\xampp\htdocs\qrmenum\app\Controllers/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 7.
+ 1 APPPATH\Controllers\Home.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\qrmenum\\app\\Controllers/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 7)
+ 2 APPPATH\Controllers\Home.php(7): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:55:35 --> require_once(C:\xampp\htdocs\qrmenum\app\Controllers/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 7.
+ 1 APPPATH\Controllers\Home.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\qrmenum\\app\\Controllers/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 7)
+ 2 APPPATH\Controllers\Home.php(7): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 17:55:35 --> require_once(C:\xampp\htdocs\qrmenum\app\Controllers/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 7.
+ 1 APPPATH\Controllers\Home.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\qrmenum\\app\\Controllers/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 7)
+ 2 APPPATH\Controllers\Home.php(7): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:00:57 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:00:58 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:00:58 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:00:58 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:03:08 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:03:08 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:03:08 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:03:09 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:03:09 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:03:09 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:03:09 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:03:09 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:03:09 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:03:09 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:03:10 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:04:35 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:04:35 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:04:35 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:04:36 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:04:36 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:06:55 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:06:56 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:06:56 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:06:56 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:06:57 --> Class "chillerlan\QRCode\QROptions" not found
+in APPPATH\Controllers\Home.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:13:04 --> require_once(C:\xampp\htdocs\qrmenum\vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 4.
+ 1 APPPATH\Controllers\Home.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\qrmenum\\vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 4)
+ 2 APPPATH\Controllers\Home.php(4): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:13:05 --> require_once(C:\xampp\htdocs\qrmenum\vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 4.
+ 1 APPPATH\Controllers\Home.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\qrmenum\\vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 4)
+ 2 APPPATH\Controllers\Home.php(4): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:13:06 --> require_once(C:\xampp\htdocs\qrmenum\vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 4.
+ 1 APPPATH\Controllers\Home.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\qrmenum\\vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 4)
+ 2 APPPATH\Controllers\Home.php(4): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:13:12 --> Class "Endroid\QrCode\Builder\Builder" not found
+in APPPATH\Controllers\Home.php on line 539.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:13:13 --> Class "Endroid\QrCode\Builder\Builder" not found
+in APPPATH\Controllers\Home.php on line 539.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:13:13 --> Class "Endroid\QrCode\Builder\Builder" not found
+in APPPATH\Controllers\Home.php on line 539.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:13:14 --> Class "Endroid\QrCode\Builder\Builder" not found
+in APPPATH\Controllers\Home.php on line 539.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:13:14 --> Class "Endroid\QrCode\Builder\Builder" not found
+in APPPATH\Controllers\Home.php on line 539.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:13:14 --> Class "Endroid\QrCode\Builder\Builder" not found
+in APPPATH\Controllers\Home.php on line 539.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:13:14 --> Class "Endroid\QrCode\Builder\Builder" not found
+in APPPATH\Controllers\Home.php on line 539.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:13:14 --> Class "Endroid\QrCode\Builder\Builder" not found
+in APPPATH\Controllers\Home.php on line 539.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:13:14 --> Class "Endroid\QrCode\Builder\Builder" not found
+in APPPATH\Controllers\Home.php on line 539.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:13:14 --> Class "Endroid\QrCode\Builder\Builder" not found
+in APPPATH\Controllers\Home.php on line 539.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:13:14 --> Class "Endroid\QrCode\Builder\Builder" not found
+in APPPATH\Controllers\Home.php on line 539.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:13:15 --> Class "Endroid\QrCode\Builder\Builder" not found
+in APPPATH\Controllers\Home.php on line 539.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:20:14 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:20:15 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:20:16 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:20:16 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:20:16 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:20:16 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:22:54 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:22:55 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:22:57 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:22:58 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:22:58 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:22:59 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:23:04 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:23:04 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:23:05 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:23:05 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:23:35 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:23:35 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:23:36 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:23:36 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:23:36 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:23:36 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:23:36 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:23:58 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:23:59 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:23:59 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:23:59 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:23:59 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:23:59 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:23:59 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:24:52 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:24:53 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:24:53 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:24:53 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:24:53 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:24:53 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:24:53 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:24:54 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:24:54 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:24:54 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:24:54 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:24:54 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:24:54 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:24:55 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:24:55 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrimage.php', 30)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(36): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:27:35 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:27:35 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:27:36 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:27:36 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:27:36 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:27:37 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:27:37 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:27:37 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:27:37 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:27:37 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:27:50 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:27:51 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:27:51 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:27:51 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:27:51 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:27:51 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:27:51 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:28:07 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:28:08 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:28:08 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:28:08 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:28:08 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:28:08 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:28:08 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:28:09 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:28:09 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:28:29 --> Required parameter $back_color follows optional parameter $filename
+in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parameter $back_color follows optional parameter $filename', 'APPPATH\\Libraries\\phpqrcode\\qrvect.php', 140)
+ 2 APPPATH\Libraries\phpqrcode\qrlib.php(37): include()
+ 3 APPPATH\Controllers\Home.php(4): require_once('APPPATH\\Libraries\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:30:39 --> Call to undefined function ImageCreate()
+in APPPATH\Libraries\phpqrcode\qrimage.php on line 79.
+ 1 APPPATH\Libraries\phpqrcode\qrimage.php(40): QRimage::image([...], false, 16777215, null, 10)
+ 2 APPPATH\Libraries\phpqrcode\qrencode.php(513): QRimage::png([...], null, 10, 4, false, 16777215, 0)
+ 3 APPPATH\Libraries\phpqrcode\qrencode.php(286): QRencode->encodePNG('https://www.sarkod.com.tr/?siparis_id=', null, false)
+ 4 APPPATH\Controllers\Home.php(536): QRcode::png('https://www.sarkod.com.tr/?siparis_id=', null, 0, 10)
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:33:20 --> Class "App\Controllers\QRcode" not found
+in APPPATH\Controllers\Home.php on line 536.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:33:32 --> syntax error, unexpected token "\"
+in APPPATH\Controllers\Home.php on line 536.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:36:39 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\qrmenum\app\Controllers\Home.php on line 543
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Home.php(543): view('backend/qrcode', 'C:\\xampp\\htdocs\\qrmenum')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:37:50 --> Undefined variable $qrCodeBase64
+in APPPATH\Views\backend\qrcode.php on line 45.
+ 1 APPPATH\Views\backend\qrcode.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $qrCodeBase64', 'APPPATH\\Views\\backend\\qrcode.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\qrcode.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/qrcode', [], true)
+ 5 APPPATH\Controllers\Home.php(543): view('backend/qrcode', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:37:56 --> Undefined variable $qrCodeBase64
+in APPPATH\Views\backend\qrcode.php on line 45.
+ 1 APPPATH\Views\backend\qrcode.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $qrCodeBase64', 'APPPATH\\Views\\backend\\qrcode.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\qrcode.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/qrcode', [], true)
+ 5 APPPATH\Controllers\Home.php(543): view('backend/qrcode', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:40:56 --> file_get_contents(C:\xampp\htdocs\qrmenum\writable\debugbar/debugbar_1759073737.786592.json): Failed to open stream: No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\qrmenum\\writable\\debugbar/debugbar_1759073737.786592.json): Failed to open stream: No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 82)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(82): file_get_contents('FCPATH\\writable\\debugbar/debugbar_1759073737.786592.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(501): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1759074055.385756', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(478): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(317): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:40:56 --> file_get_contents(C:\xampp\htdocs\qrmenum\writable\debugbar/debugbar_1759073737.786592.json): Failed to open stream: No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\qrmenum\\writable\\debugbar/debugbar_1759073737.786592.json): Failed to open stream: No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 82)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(82): file_get_contents('FCPATH\\writable\\debugbar/debugbar_1759073737.786592.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(501): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1759074055.554427', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(478): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(317): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 18:40:56 --> unlink(C:\xampp\htdocs\qrmenum\writable\debugbar/debugbar_1759073737.786592.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\qrmenum\\writable\\debugbar/debugbar_1759073737.786592.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('FCPATH\\writable\\debugbar/debugbar_1759073737.786592.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(501): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1759074055.862263', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(478): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(317): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 19:08:02 --> include_once(Libraries/phpqrcode/qrlib.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 5.
+ 1 APPPATH\Controllers\Home.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(Libraries/phpqrcode/qrlib.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 5)
+ 2 APPPATH\Controllers\Home.php(5): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 19:20:32 --> require_once(C:\xampp\htdocs\qrmenum\app\qr/qrlib.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 532.
+ 1 APPPATH\Controllers\Home.php(532): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\qrmenum\\app\\qr/qrlib.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 532)
+ 2 APPPATH\Controllers\Home.php(532): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 19:21:39 --> include(C:\xampp\htdocs\qrmenum\app\qr\qrconst.php): Failed to open stream: No such file or directory
+in APPPATH\qr\qrlib.php on line 32.
+ 1 APPPATH\qr\qrlib.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\qrmenum\\app\\qr\\qrconst.php): Failed to open stream: No such file or directory', 'APPPATH\\qr\\qrlib.php', 32)
+ 2 APPPATH\qr\qrlib.php(32): include()
+ 3 APPPATH\Controllers\Home.php(532): require_once('APPPATH\\qr\\qrlib.php')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 19:21:40 --> include(C:\xampp\htdocs\qrmenum\app\qr\qrconst.php): Failed to open stream: No such file or directory
+in APPPATH\qr\qrlib.php on line 32.
+ 1 APPPATH\qr\qrlib.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\qrmenum\\app\\qr\\qrconst.php): Failed to open stream: No such file or directory', 'APPPATH\\qr\\qrlib.php', 32)
+ 2 APPPATH\qr\qrlib.php(32): include()
+ 3 APPPATH\Controllers\Home.php(532): require_once('APPPATH\\qr\\qrlib.php')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 19:22:16 --> Constant QR_MODE_NUL already defined
+in APPPATH\qr\qrconst.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant QR_MODE_NUL already defined', 'APPPATH\\qr\\qrconst.php', 31)
+ 2 APPPATH\qr\qrconst.php(31): define('QR_MODE_NUL', -1)
+ 3 APPPATH\qr\qrlib.php(32): include('APPPATH\\qr\\qrconst.php')
+ 4 APPPATH\Controllers\Home.php(532): require_once('APPPATH\\qr\\qrlib.php')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 19:22:53 --> Undefined variable $qrCode
+in APPPATH\Views\backend\qrcode.php on line 47.
+ 1 APPPATH\Views\backend\qrcode.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $qrCode', 'APPPATH\\Views\\backend\\qrcode.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\qrcode.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/qrcode', [], true)
+ 5 APPPATH\Controllers\Home.php(544): view('backend/qrcode', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-28 19:22:54 --> Undefined variable $qrCode
+in APPPATH\Views\backend\qrcode.php on line 47.
+ 1 APPPATH\Views\backend\qrcode.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $qrCode', 'APPPATH\\Views\\backend\\qrcode.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\qrcode.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/qrcode', [], true)
+ 5 APPPATH\Controllers\Home.php(544): view('backend/qrcode', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->qrcode()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

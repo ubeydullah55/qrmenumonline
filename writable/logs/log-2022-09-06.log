@@ -1,0 +1,382 @@
+CRITICAL - 2022-09-06 09:20:21 --> Undefined variable $aktif_program
+in APPPATH\Views\backend\category.php on line 86.
+ 1 APPPATH\Views\backend\category.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aktif_program', 'APPPATH\\Views\\backend\\category.php', 86)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\category.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/category', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('backend/category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->category()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 09:20:54 --> Undefined array key "program_ad"
+in APPPATH\Views\backend\category.php on line 89.
+ 1 APPPATH\Views\backend\category.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "program_ad"', 'APPPATH\\Views\\backend\\category.php', 89)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\category.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/category', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('backend/category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->category()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 09:21:47 --> Undefined array key "p_id"
+in APPPATH\Views\backend\category.php on line 91.
+ 1 APPPATH\Views\backend\category.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "p_id"', 'APPPATH\\Views\\backend\\category.php', 91)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\category.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/category', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('backend/category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->category()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 09:21:48 --> Undefined array key "p_id"
+in APPPATH\Views\backend\category.php on line 91.
+ 1 APPPATH\Views\backend\category.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "p_id"', 'APPPATH\\Views\\backend\\category.php', 91)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\category.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/category', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('backend/category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->category()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 09:21:48 --> Undefined array key "p_id"
+in APPPATH\Views\backend\category.php on line 91.
+ 1 APPPATH\Views\backend\category.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "p_id"', 'APPPATH\\Views\\backend\\category.php', 91)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\category.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/category', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('backend/category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->category()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 09:21:48 --> Undefined array key "p_id"
+in APPPATH\Views\backend\category.php on line 91.
+ 1 APPPATH\Views\backend\category.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "p_id"', 'APPPATH\\Views\\backend\\category.php', 91)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\category.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/category', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('backend/category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->category()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 09:44:43 --> Undefined array key "p_id"
+in APPPATH\Views\backend\category.php on line 91.
+ 1 APPPATH\Views\backend\category.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "p_id"', 'APPPATH\\Views\\backend\\category.php', 91)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\category.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/category', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('backend/category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->category()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 14:09:40 --> Invalid file: backend/product_view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/product_view.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/product_view', [], true)
+ 3 APPPATH\Config\Routes.php(45): view('backend/product_view')
+ 4 SYSTEMPATH\CodeIgniter.php(845): CodeIgniter\CodeIgniter::Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 15:22:13 --> Undefined variable $data
+in APPPATH\Controllers\Home.php on line 46.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Home.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 15:25:55 --> Undefined constant "App\Controllers\request"
+in APPPATH\Controllers\Home.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 15:26:25 --> Undefined constant "App\Controllers\request"
+in APPPATH\Controllers\Home.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 15:28:43 --> Undefined variable $request
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\Home.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 15:28:45 --> Undefined variable $request
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\Home.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 15:28:56 --> Undefined variable $request
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\Home.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 15:30:53 --> Undefined variable $request
+in APPPATH\Controllers\Home.php on line 45.
+ 1 APPPATH\Controllers\Home.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\Home.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 15:31:07 --> Undefined variable $request
+in APPPATH\Controllers\Home.php on line 45.
+ 1 APPPATH\Controllers\Home.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\Home.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 15:32:59 --> Undefined variable $request
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\Home.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 15:34:57 --> Undefined variable $request
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\Home.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 15:35:01 --> Undefined variable $request
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\Home.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 15:35:16 --> Undefined variable $request
+in APPPATH\Controllers\Home.php on line 47.
+ 1 APPPATH\Controllers\Home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\Home.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 15:35:28 --> Undefined variable $request
+in APPPATH\Controllers\Home.php on line 47.
+ 1 APPPATH\Controllers\Home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\Home.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 15:35:43 --> Undefined constant "App\Controllers\request"
+in APPPATH\Controllers\Home.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 15:36:24 --> Undefined constant "App\Controllers\request"
+in APPPATH\Controllers\Home.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 15:36:36 --> Undefined variable $request
+in APPPATH\Controllers\Home.php on line 49.
+ 1 APPPATH\Controllers\Home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\Home.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 15:37:54 --> Undefined variable $request
+in APPPATH\Controllers\Home.php on line 49.
+ 1 APPPATH\Controllers\Home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\Home.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 16:30:01 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Home.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 16:30:51 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Home.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 16:31:21 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Home.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 16:31:35 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Home.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 16:44:03 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Home.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 16:53:09 --> Undefined array key "category"
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category"', 'APPPATH\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 16:53:17 --> Undefined array key "category"
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category"', 'APPPATH\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 18:27:40 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1577.
+ 1 SYSTEMPATH\BaseModel.php(1577): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(null, 'insert')
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert(null, true)
+ 4 APPPATH\Controllers\Home.php(87): CodeIgniter\Model->insert()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-06 18:28:35 --> mysqli_sql_exception: Column 'img' cannot be null in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\qrmenu\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\qrmenu\app\Controllers\Home.php(87): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-06 18:43:26 --> mysqli_sql_exception: Column 'img' cannot be null in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\qrmenu\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\qrmenu\app\Controllers\Home.php(87): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-06 18:46:24 --> mysqli_sql_exception: Column 'img' cannot be null in C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\qrmenu\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\qrmenu\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\qrmenu\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\qrmenu\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\qrmenu\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\qrmenu\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\qrmenu\app\Controllers\Home.php(87): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+#9 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\qrmenu\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\qrmenu\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-06 19:05:10 --> Cannot access protected property CodeIgniter\HTTP\Files\UploadedFile::$name
+in APPPATH\Controllers\Home.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 19:05:56 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+in APPPATH\Controllers\Home.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 19:06:11 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+in APPPATH\Controllers\Home.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 19:06:37 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+in APPPATH\Controllers\Home.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 19:10:35 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Home.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 19:14:40 --> Undefined variable $file
+in APPPATH\Controllers\Home.php on line 76.
+ 1 APPPATH\Controllers\Home.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $file', 'APPPATH\\Controllers\\Home.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 19:16:36 --> Undefined array key "product_img"
+in APPPATH\Controllers\Home.php on line 51.
+ 1 APPPATH\Controllers\Home.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_img"', 'APPPATH\\Controllers\\Home.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 19:16:53 --> Undefined array key "product_img"
+in APPPATH\Controllers\Home.php on line 51.
+ 1 APPPATH\Controllers\Home.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_img"', 'APPPATH\\Controllers\\Home.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 19:17:36 --> Undefined array key "product_img"
+in APPPATH\Controllers\Home.php on line 51.
+ 1 APPPATH\Controllers\Home.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_img"', 'APPPATH\\Controllers\\Home.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 19:17:58 --> Undefined array key "product_img"
+in APPPATH\Controllers\Home.php on line 51.
+ 1 APPPATH\Controllers\Home.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_img"', 'APPPATH\\Controllers\\Home.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 19:18:26 --> Undefined variable $ad
+in APPPATH\Controllers\Home.php on line 89.
+ 1 APPPATH\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ad', 'APPPATH\\Controllers\\Home.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 19:18:49 --> Undefined variable $ad
+in APPPATH\Controllers\Home.php on line 89.
+ 1 APPPATH\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ad', 'APPPATH\\Controllers\\Home.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

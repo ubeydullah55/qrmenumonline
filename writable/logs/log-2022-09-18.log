@@ -1,0 +1,416 @@
+CRITICAL - 2022-09-18 20:13:11 --> syntax error, unexpected '==' (T_IS_EQUAL), expecting ')'
+in APPPATH/Controllers/Anasayfa.php on line 20.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Anasayfa.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Anasayfa')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Anasayfa')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Anasayfa')
+ 5 SYSTEMPATH/CodeIgniter.php(854): class_exists('\\App\\Controllers\\Anasayfa', true)
+ 6 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-18 20:15:22 --> syntax error, unexpected '.1' (T_DNUMBER), expecting ')'
+in APPPATH/Controllers/Anasayfa.php on line 25.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Anasayfa.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Anasayfa')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Anasayfa')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Anasayfa')
+ 5 SYSTEMPATH/CodeIgniter.php(854): class_exists('\\App\\Controllers\\Anasayfa', true)
+ 6 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-18 20:15:29 --> syntax error, unexpected '.1' (T_DNUMBER), expecting ')'
+in APPPATH/Controllers/Anasayfa.php on line 25.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Anasayfa.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Anasayfa')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Anasayfa')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Anasayfa')
+ 5 SYSTEMPATH/CodeIgniter.php(854): class_exists('\\App\\Controllers\\Anasayfa', true)
+ 6 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-18 20:20:44 --> syntax error, unexpected '{'
+in APPPATH/Controllers/Anasayfa.php on line 22.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Anasayfa.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Anasayfa')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Anasayfa')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Anasayfa')
+ 5 SYSTEMPATH/CodeIgniter.php(854): class_exists('\\App\\Controllers\\Anasayfa', true)
+ 6 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-18 20:20:57 --> Error connecting to the database: ErrorException: Packets out of order. Expected 0 received 1. Packet size=23 in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Packets out of ...', '/home/vol13_4/e...', 171, Array)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-18 20:20:57 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-18 20:21:00 --> Error connecting to the database: ErrorException: Packets out of order. Expected 0 received 1. Packet size=23 in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Packets out of ...', '/home/vol13_4/e...', 171, Array)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-18 20:21:00 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-18 20:21:13 --> Error connecting to the database: ErrorException: Packets out of order. Expected 0 received 1. Packet size=23 in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Packets out of ...', '/home/vol13_4/e...', 171, Array)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-18 20:21:13 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-18 20:21:14 --> Error connecting to the database: ErrorException: Packets out of order. Expected 0 received 1. Packet size=23 in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Packets out of ...', '/home/vol13_4/e...', 171, Array)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-18 20:21:14 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-18 20:21:17 --> Error connecting to the database: ErrorException: Packets out of order. Expected 0 received 1. Packet size=23 in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Packets out of ...', '/home/vol13_4/e...', 171, Array)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('sql213.epizy.co...', 'epiz_32416034', 'tZPPtcgkYJ', 'epiz_32416034_i...', 3306, '', 0)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/vol13_4/epizy.com/epiz_32416034/htdocs/app/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+#6 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+#7 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#8 /home/vol13_4/epizy.com/epiz_32416034/htdocs/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol13_4/epizy.com/epiz_32416034/htdocs/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-18 20:21:17 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Anasayfa.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-18 20:50:31 --> syntax error, unexpected '?>'
+in APPPATH/Views/backend/include/leftmenu.php on line 85.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render('backend/include/leftmenu', null, true)
+ 3 APPPATH/Views/backend/panel.php(6): CodeIgniter\View\View->include('backend/include/leftmenu')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/backend/panel.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render('backend/panel', [], true)
+ 7 APPPATH/Controllers/Home.php(40): view('backend/panel', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->panel()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-18 20:50:51 --> syntax error, unexpected '?>'
+in APPPATH/Views/backend/include/leftmenu.php on line 85.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render('backend/include/leftmenu', null, true)
+ 3 APPPATH/Views/backend/panel.php(6): CodeIgniter\View\View->include('backend/include/leftmenu')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/backend/panel.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render('backend/panel', [], true)
+ 7 APPPATH/Controllers/Home.php(40): view('backend/panel', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->panel()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-18 20:52:05 --> syntax error, unexpected '?>'
+in APPPATH/Views/backend/include/leftmenu.php on line 85.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render('backend/include/leftmenu', null, true)
+ 3 APPPATH/Views/backend/panel.php(6): CodeIgniter\View\View->include('backend/include/leftmenu')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/backend/panel.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render('backend/panel', [], true)
+ 7 APPPATH/Controllers/Home.php(40): view('backend/panel', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->panel()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-18 20:52:22 --> syntax error, unexpected '?>'
+in APPPATH/Views/backend/include/leftmenu.php on line 85.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render('backend/include/leftmenu', null, true)
+ 3 APPPATH/Views/backend/panel.php(6): CodeIgniter\View\View->include('backend/include/leftmenu')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/backend/panel.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render('backend/panel', [], true)
+ 7 APPPATH/Controllers/Home.php(40): view('backend/panel', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->panel()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-18 20:57:02 --> syntax error, unexpected '?>'
+in APPPATH/Views/backend/include/leftmenu.php on line 85.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render('backend/include/leftmenu', null, true)
+ 3 APPPATH/Views/backend/panel.php(6): CodeIgniter\View\View->include('backend/include/leftmenu')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/backend/panel.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render('backend/panel', [], true)
+ 7 APPPATH/Controllers/Home.php(40): view('backend/panel', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->panel()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-18 20:57:35 --> syntax error, unexpected '?>'
+in APPPATH/Views/backend/include/leftmenu.php on line 85.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render('backend/include/leftmenu', null, true)
+ 3 APPPATH/Views/backend/panel.php(6): CodeIgniter\View\View->include('backend/include/leftmenu')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/backend/panel.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render('backend/panel', [], true)
+ 7 APPPATH/Controllers/Home.php(40): view('backend/panel', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->panel()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-18 20:58:19 --> syntax error, unexpected ':'
+in APPPATH/Views/backend/include/leftmenu.php on line 85.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render('backend/include/leftmenu', null, true)
+ 3 APPPATH/Views/backend/panel.php(6): CodeIgniter\View\View->include('backend/include/leftmenu')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/backend/panel.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render('backend/panel', [], true)
+ 7 APPPATH/Controllers/Home.php(40): view('backend/panel', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->panel()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
