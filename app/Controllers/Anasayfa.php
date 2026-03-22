@@ -7,26 +7,37 @@ use CodeIgniter\Controller;
 class Anasayfa extends Controller
 {
 
-  public function index()
+  protected $firma;
+  public function initController(\CodeIgniter\HTTP\RequestInterface $request, \CodeIgniter\HTTP\ResponseInterface $response, \Psr\Log\LoggerInterface $logger)
   {
-    $firma = session()->get('firma');
-      $modelSettings = new \App\Models\SettingsModel();
-    $data['settings'] = $modelSettings->findAll()[0]; // tek satır olduğu varsayımıyla [0]
+    parent::initController($request, $response, $logger);
 
-    // diğer modeller asa
-    $modelcategories = new \App\Models\UserModel();
-    $data['category'] = $modelcategories->findAll();
-
-    $modelproducts = new \App\Models\ProductsModel();
-    $data['products'] = $modelproducts->where('is_active', 1)->findAll();
-
-    $modelStatus = new \App\Models\StatusModel();
-    $data['status'] = $modelStatus->findAll();
-  
-    return view('templates/' . $firma->template,$data);
+    // 2. ADIM: Değişkeni burada bir kez doldur
+    $this->firma = session()->get('firma');
   }
 
-  
+  public function index()
+  {
+    $modelSettings = new \App\Models\SettingsModel();
+    $data['settings'] = $modelSettings->where('firma_id', $this->firma->firma_id)->first();
+    // Tek satır olduğu için first() kullandık, [0] yerine
+
+    $modelcategories = new \App\Models\UserModel();
+    $data['category'] = $modelcategories->where('firma_id', $this->firma->firma_id)->findAll();
+
+    $modelproducts = new \App\Models\ProductsModel();
+    $data['products'] = $modelproducts
+      ->where('firma_id', $this->firma->firma_id)
+      ->where('is_active', 1)
+      ->findAll();
+
+    $modelStatus = new \App\Models\StatusModel();
+    $data['status'] = $modelStatus->where('firma_id', $this->firma->firma_id)->findAll();
+
+    return view('templates/' . $this->firma->template, $data);
+  }
+
+
 
   public function call($table_no)
   {
