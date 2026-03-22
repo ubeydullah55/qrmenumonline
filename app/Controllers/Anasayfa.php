@@ -13,7 +13,7 @@ class Anasayfa extends Controller
       $modelSettings = new \App\Models\SettingsModel();
     $data['settings'] = $modelSettings->findAll()[0]; // tek satır olduğu varsayımıyla [0]
 
-    // diğer modeller
+    // diğer modeller asa
     $modelcategories = new \App\Models\UserModel();
     $data['category'] = $modelcategories->findAll();
 
