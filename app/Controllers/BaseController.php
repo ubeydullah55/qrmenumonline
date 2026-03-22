@@ -40,13 +40,26 @@ abstract class BaseController extends Controller
     /**
      * Constructor.
      */
+    protected $baseURL;
     public function initController(RequestInterface $request, ResponseInterface $response, LoggerInterface $logger)
     {
         // Do Not Edit This Line
         parent::initController($request, $response, $logger);
         
+            $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https://" : "http://";
+    $host = $_SERVER['HTTP_HOST'];
+    $script = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
+    $this->baseURL = $protocol . $host . $script;
         // Preload any models, libraries, etc, here.
 
         // E.g.: $this->session = \Config\Services::session();
     }
+
+    protected function getBaseURL()
+{
+    $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https://" : "http://";
+    $host = $_SERVER['HTTP_HOST']; // örn: supervisor.localhost veya firmaa.localhost
+    $script = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']); 
+    return $protocol . $host . $script; // örn: http://supervisor.localhost/qrmenumonline/
+}
 }

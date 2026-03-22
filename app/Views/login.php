@@ -43,7 +43,7 @@
     <div class="card-body login-card-body">
       <p class="login-box-msg">Qr Menü Sistemi Panel Giriş</p>
 
-      <form action="<?= base_url('login/kontrol'); ?>" method="post">
+      <form action="<?= $baseURL . 'login/kontrol'; ?>" method="post">
         <div class="input-group mb-3">
           <input type="number" class="form-control" name="k_adi" placeholder="Telefon no giriniz...." required>
           <div class="input-group-append">

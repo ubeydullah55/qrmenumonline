@@ -4,6 +4,15 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
+      protected $firma;
+  public function initController(\CodeIgniter\HTTP\RequestInterface $request, \CodeIgniter\HTTP\ResponseInterface $response, \Psr\Log\LoggerInterface $logger)
+  {
+    parent::initController($request, $response, $logger);
+
+    // 2. ADIM: Değişkeni burada bir kez doldur
+    $this->firma = session()->get('firma');
+  }
+  
     public function __construct()
     {
         $this->guvenlik();
