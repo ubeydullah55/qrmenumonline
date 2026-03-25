@@ -10,10 +10,10 @@
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="<?= base_url('assets/backend'); ?>/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="<?= base_url().'/assets/backend' ?>/plugins/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="<?= base_url('assets/backend'); ?>/dist/css/adminlte.min.css">
-
+  <link rel="stylesheet" href="<?= base_url().'/assets/backend' ?>/dist/css/adminlte.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap4.min.css">
   <style>
     .dropzone-wrapper {
       border: 2px dashed #007bff;

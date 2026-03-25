@@ -8,6 +8,7 @@ use CodeIgniter\HTTP\IncomingRequest;
 use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
 use Psr\Log\LoggerInterface;
+use Config\App;
 
 /**
  * Class BaseController
@@ -44,22 +45,27 @@ abstract class BaseController extends Controller
     public function initController(RequestInterface $request, ResponseInterface $response, LoggerInterface $logger)
     {
         // Do Not Edit This Line
-        parent::initController($request, $response, $logger);
-        
-            $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https://" : "http://";
-    $host = $_SERVER['HTTP_HOST'];
-    $script = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
-    $this->baseURL = $protocol . $host . $script;
-        // Preload any models, libraries, etc, here.
+       parent::initController($request, $response, $logger);
 
-        // E.g.: $this->session = \Config\Services::session();
+        // Dinamik base URL oluştur
+        $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https://' : 'http://';
+        $host = $_SERVER['HTTP_HOST'];
+        $script = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
+        $dynamicBaseURL = $protocol . $host . $script;
+
+        // Config\App::$baseURL’yi runtime’da değiştir
+        $config = config(App::class);
+        $config->baseURL = $dynamicBaseURL;
+
+        // Artık view’larda base_url() otomatik çalışacak
+       
     }
 
     protected function getBaseURL()
-{
-    $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https://" : "http://";
-    $host = $_SERVER['HTTP_HOST']; // örn: supervisor.localhost veya firmaa.localhost
-    $script = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']); 
-    return $protocol . $host . $script; // örn: http://supervisor.localhost/qrmenumonline/
-}
+    {
+        $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https://" : "http://";
+        $host = $_SERVER['HTTP_HOST']; // örn: supervisor.localhost veya firmaa.localhost
+        $script = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
+        return $protocol . $host . $script; // örn: http://supervisor.localhost/qrmenumonline/
+    }
 }

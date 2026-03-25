@@ -218,7 +218,7 @@
                                 <div>
                                     <div class="img-box">
                                         <?php if ($status[0]['resim'] == 1): ?>
-                                            <img src="<?= base_url('img/product/' . $item['img']); ?>" alt="">
+                                            <img src="<?= base_url('img/product/'. session()->get('firma')->firma_id . '/' . $item['img']); ?>" alt="">
                                         <?php endif; ?>
                                     </div>
                                     <div class="detail-box">

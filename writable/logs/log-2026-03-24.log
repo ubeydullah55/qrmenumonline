@@ -1,0 +1,22 @@
+CRITICAL - 2026-03-24 23:09:49 --> Trying to access array offset on value of type null
+in APPPATH\Views\templates\menu2.php on line 6.
+ 1 APPPATH\Views\templates\menu2.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\templates\\menu2.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\menu2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/menu2', [], true)
+ 5 APPPATH\Controllers\Anasayfa.php(37): view('templates/menu2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-24 23:27:31 --> Undefined variable $categoryId
+in APPPATH\Views\backend\categoryEditView.php on line 56.
+ 1 APPPATH\Views\backend\categoryEditView.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryId', 'APPPATH\\Views\\backend\\categoryEditView.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\categoryEditView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('backend/categoryEditView', [], true)
+ 5 APPPATH\Controllers\Home.php(121): view('backend/categoryEditView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->categoryEditView('33')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

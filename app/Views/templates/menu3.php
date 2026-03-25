@@ -180,9 +180,9 @@ body {
     <div class="menu-item all cat-<?= $item['categories_id'] ?> openModal"
          data-bs-toggle="modal" data-bs-target="#productModal"
          data-name="<?= $item['name']; ?>" data-price="<?= $item['price']; ?>"
-         data-info="<?= $item['info']; ?>" data-img="<?= base_url('img/product/'.$item['img']); ?>">
+         data-info="<?= $item['info']; ?>" data-img="<?= base_url('img/product/'. session()->get('firma')->firma_id . '/'.$item['img']); ?>">
       <?php if($status[0]['resim']==1): ?>
-        <img src="<?= base_url('img/product/'.$item['img']); ?>" alt="">
+        <img src="<?= base_url('img/product/'. session()->get('firma')->firma_id . '/'.$item['img']); ?>" alt="">
       <?php endif; ?>
       <div class="menu-info">
         <h6><?= $item['name']; ?></h6>

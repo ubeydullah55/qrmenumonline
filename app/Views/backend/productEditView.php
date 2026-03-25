@@ -74,7 +74,9 @@
                       </div>
                       <input type="file" name="product_img" class="dropzone-input" accept="image/*">
                       <?php if (!empty($product['img'])): ?>
-                        <img id="productPreview" src="<?= base_url('img/product/' . $product['img']) ?>" style="max-height:80px; margin-top:10px;">
+                        <img id="productPreview"
+                          src="<?= base_url('img/product/' . session()->get('firma')->firma_id . '/' . $product['img']) ?>"
+                          style="max-height:80px; margin-top:10px;">
                       <?php else: ?>
                         <img id="productPreview" style="display:none; max-height:80px; margin-top:10px;">
                       <?php endif; ?>

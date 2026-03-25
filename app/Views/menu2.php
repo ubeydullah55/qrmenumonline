@@ -141,7 +141,7 @@
                                         <div class="col-lg-6 all cat-<?php echo $item['categories_id']; ?>">
                                             <div class="d-flex align-items-center">
                                                 <?php if ($status[0]['resim'] == 1) : ?>
-                                                    <img class="flex-shrink-0 img-fluid rounded product-modal-trigger" src="<?= base_url('img/product/' . $item['img']); ?>" alt="" style="width: 80px; cursor: pointer;" data-bs-toggle="modal" data-bs-target="#productModal" data-image-url="<?= base_url('img/product/' . $item['img']); ?>" data-product-name="<?php echo htmlspecialchars($item['name']); ?>" data-product-info="<?php echo htmlspecialchars($item['info']); ?>" data-product-price="₺<?php echo htmlspecialchars($item['price']); ?>">
+                                                    <img class="flex-shrink-0 img-fluid rounded product-modal-trigger" src="<?= base_url('img/product/'. session()->get('firma')->firma_id . '/' . $item['img']); ?>" alt="" style="width: 80px; cursor: pointer;" data-bs-toggle="modal" data-bs-target="#productModal" data-image-url="<?= base_url('img/product/'. session()->get('firma')->firma_id . '/'  . $item['img']); ?>" data-product-name="<?php echo htmlspecialchars($item['name']); ?>" data-product-info="<?php echo htmlspecialchars($item['info']); ?>" data-product-price="₺<?php echo htmlspecialchars($item['price']); ?>">
                                                 <?php endif; ?>
 
                                                 <div class="w-100 d-flex flex-column text-start ps-4">

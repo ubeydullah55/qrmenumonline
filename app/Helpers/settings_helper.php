@@ -1,30 +1,46 @@
 <?php
 
+
+
 function settingsGet()
 {
-    $modelsettings = new \App\Models\SettingsModel;
-    $data['settings'] = $modelsettings->first();
-    if(!empty($data['settings'])){
-    $data['settings'] = array(
-        'id' => $data['settings']['id'],
-        'logo_url' => $data['settings']['logo_url'],
-        'favIcon_url' => $data['settings']['favIcon_url'],
-        'companyName' => $data['settings']['companyName'],
-        'instagramUrl' => $data['settings']['instagramUrl'],
-        'twitterUrl' => $data['settings']['twitterUrl'],
-        'facebookUrl' => $data['settings']['facebookUrl'],
-        'location' => $data['settings']['location'],
-        'phone' => $data['settings']['phone'],
-        'mail' => $data['settings']['mail'],
-        'hakkimizda' => $data['settings']['hakkimizda'],
-        'haftaIci' => $data['settings']['haftaIci'],
-        'haftaSonu' => $data['settings']['haftaSonu'],
-    );   
+    $modelsettings = new \App\Models\SettingsModel();
+
+    $firma = session()->get('firma');
+
+    if (!$firma) {
+        return [
+            'settings' => []
+        ];
     }
-    //eğer veritabanında kayıt yoksa
-    else
-    {
-        $data['settings'] = array(
+
+    $settings = $modelsettings
+        ->where('firma_id', $firma->firma_id)
+        ->first();
+
+    if (!empty($settings)) {
+        return [
+            'settings' => [
+                'id' => $settings['id'],
+                'logo_url' => $settings['logo_url'],
+                'favIcon_url' => $settings['favIcon_url'],
+                'companyName' => $settings['companyName'],
+                'instagramUrl' => $settings['instagramUrl'],
+                'twitterUrl' => $settings['twitterUrl'],
+                'facebookUrl' => $settings['facebookUrl'],
+                'location' => $settings['location'],
+                'phone' => $settings['phone'],
+                'mail' => $settings['mail'],
+                'hakkimizda' => $settings['hakkimizda'],
+                'haftaIci' => $settings['haftaIci'],
+                'haftaSonu' => $settings['haftaSonu'],
+            ]
+        ];
+    }
+
+    // boşsa default
+    return [
+        'settings' => [
             'id' => 0,
             'logo_url' => "",
             'favIcon_url' => "",
@@ -38,8 +54,6 @@ function settingsGet()
             'hakkimizda' => "",
             'haftaIci' => "",
             'haftaSonu' => "",
-        ); 
-    }
-    return ($data);
-    
+        ]
+    ];
 }

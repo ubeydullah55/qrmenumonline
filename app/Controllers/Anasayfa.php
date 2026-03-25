@@ -22,7 +22,7 @@ class Anasayfa extends Controller
     $data['settings'] = $modelSettings->where('firma_id', $this->firma->firma_id)->first();
     // Tek satır olduğu için first() kullandık, [0] yerine
 
-    $modelcategories = new \App\Models\UserModel();
+    $modelcategories = new \App\Models\CategoryModel();
     $data['category'] = $modelcategories->where('firma_id', $this->firma->firma_id)->findAll();
 
     $modelproducts = new \App\Models\ProductsModel();

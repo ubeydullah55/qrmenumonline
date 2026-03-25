@@ -1,15 +1,15 @@
 <footer class="main-footer">
-    <div class="float-right d-none d-sm-block">
-        <b>Version</b> 1.0.0
-    </div>
-    <strong>SolutionSoftware &copy; 2022-2023</strong> All rights reserved.
+  <div class="float-right d-none d-sm-block">
+    <b>Version</b> 1.0.0
+  </div>
+  <strong>SolutionSoftware &copy; 2022-2023</strong> All rights reserved.
 
-    <!-- <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved. -->
+  <!-- <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved. -->
 </footer>
 
 <!-- Control Sidebar -->
 <aside class="control-sidebar control-sidebar-dark">
-    <!-- Control sidebar content goes here -->
+  <!-- Control sidebar content goes here -->
 </aside>
 <!-- /.control-sidebar -->
 </div>
@@ -23,42 +23,51 @@
 <script src="<?= base_url('assets/backend'); ?>/dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="<?= base_url('assets/backend'); ?>/dist/js/demo.js"></script>
+
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap4.min.js"></script>
+
+<!-- Optional Buttons -->
+<script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.bootstrap4.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.html5.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.print.min.js"></script>
 <script>
-    function previewImage(input, previewId) {
-        const preview = document.getElementById(previewId);
-        if (input.files && input.files[0]) {
-            const reader = new FileReader();
-            reader.onload = function(e) {
-                preview.src = e.target.result;
-                preview.style.display = 'block';
-            }
-            reader.readAsDataURL(input.files[0]);
-        }
+  function previewImage(input, previewId) {
+    const preview = document.getElementById(previewId);
+    if (input.files && input.files[0]) {
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        preview.src = e.target.result;
+        preview.style.display = 'block';
+      }
+      reader.readAsDataURL(input.files[0]);
     }
+  }
 
-    // Logo
-    const logoInput = document.querySelector('#logoDropzone .dropzone-input');
-    if (logoInput) {
-        logoInput.addEventListener('change', function() {
-            previewImage(this, 'logoPreview');
-        });
-    }
+  // Logo
+  const logoInput = document.querySelector('#logoDropzone .dropzone-input');
+  if (logoInput) {
+    logoInput.addEventListener('change', function() {
+      previewImage(this, 'logoPreview');
+    });
+  }
 
-    // Favicon
-    const favInput = document.querySelector('#favDropzone .dropzone-input');
-    if (favInput) {
-        favInput.addEventListener('change', function() {
-            previewImage(this, 'favPreview');
-        });
-    }
+  // Favicon
+  const favInput = document.querySelector('#favDropzone .dropzone-input');
+  if (favInput) {
+    favInput.addEventListener('change', function() {
+      previewImage(this, 'favPreview');
+    });
+  }
 
-    // Ürün resmi
-    const productInput = document.querySelector('#productDropzone .dropzone-input');
-    if (productInput) {
-        productInput.addEventListener('change', function() {
-            previewImage(this, 'productPreview');
-        });
-    }
+  // Ürün resmi
+  const productInput = document.querySelector('#productDropzone .dropzone-input');
+  if (productInput) {
+    productInput.addEventListener('change', function() {
+      previewImage(this, 'productPreview');
+    });
+  }
 </script>
 
 <!-- Diğer footer scriptler buraya -->
@@ -90,7 +99,7 @@
     });
 
     // İşlem başarılı popup
-    <?php if(session()->getFlashdata('success')): ?>
+    <?php if (session()->getFlashdata('success')): ?>
       Swal.fire({
         icon: 'success',
         title: 'Başarılı!',
@@ -100,7 +109,7 @@
       });
     <?php endif; ?>
 
-    <?php if(session()->getFlashdata('info')): ?>
+    <?php if (session()->getFlashdata('info')): ?>
       Swal.fire({
         icon: 'info',
         title: 'Bilgi',
@@ -110,7 +119,7 @@
       });
     <?php endif; ?>
 
-    <?php if(session()->getFlashdata('danger')): ?>
+    <?php if (session()->getFlashdata('danger')): ?>
       Swal.fire({
         icon: 'error',
         title: 'Hata!',
@@ -119,6 +128,19 @@
         showConfirmButton: false
       });
     <?php endif; ?>
+  });
+</script>
+
+<script>
+  $(document).ready(function() {
+    $('#example1').DataTable({
+      responsive: true,
+      dom: 'Bfrtip', // arama, export ve pagination için
+      buttons: ['copy', 'csv', 'excel', 'pdf', 'print'],
+      order: [
+        [0, 'asc']
+      ], // ID kolonuna göre varsayılan sıralama
+    });
   });
 </script>
 

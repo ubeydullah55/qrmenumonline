@@ -52,7 +52,7 @@ $routes->group('panel', static function ($routes) {
     $routes->get('categoryDelete/(:num)', 'Home::categoryDelete/$1');
     $routes->get('products_info/(:num)/(:num)', 'Home::productsInfo/$1/$2');
     $routes->get('productsDelete/(:num)', 'Home::productsDelete/$1');
-    $routes->get('productsEditView/(:num)', 'Home::productsEditView/$1');   
+    $routes->get('productsEditView/(:num)', 'Home::productsEditView/$1');
     $routes->get('callView', 'Home::call_view');
     $routes->get('callDelete/(:num)', 'Home::callDelete/$1');
     $routes->post('productEdit/(:num)', 'Home::productEdit/$1');
@@ -60,19 +60,16 @@ $routes->group('panel', static function ($routes) {
     $routes->get('get-calls', 'CallController::get_calls');
 
     $routes->get('employeDelete/(:num)', 'Home::employeDelete/$1');
-    $routes->get('employeAddView', static function () {
-        $modelPersonel = new \App\Models\KullaniciModel;
-        $data['personel'] = $modelPersonel->findAll();
-        return view('backend/employeAddView', $data);
-    });
 
-    $routes->get('productInsertView', static function () {
-        $modelcategories = new \App\Models\UserModel;
-        $data['category'] = $modelcategories->findAll();
-        return view('/backend/productInsertView', $data);
-    });
+    $routes->get('employeAddView', 'Home::employeAddView');
 
- 
+    $routes->get('productInsertView', 'Home::productInsertView');
+
+    $routes->get('firmalistView', 'Home::firmalistView');
+    $routes->get('firmaEkleView', 'Home::firmaEkleView');
+    $routes->post('firmaKaydet', 'Home::firmaKaydet');
+    $routes->get('firmadelete/(:num)', 'Home::firmadelete/$1');
+
     $routes->get('settingsView', 'Home::settingsView');
     $routes->get('statusView', 'Home::statusView');
     $routes->post('updateStatus', 'Home::updateStatus');
