@@ -24,88 +24,111 @@
     <div class="col-6">
     </div>
   </div>
-  
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12">
-          <!-- Default box -->
-          <div class="card">
-            <div class="card-header">
-              <h3 class="card-title">Ürün Listeleme Sayfası</h3>
 
-              <div class="card-tools">
-                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                  <i class="fas fa-minus"></i>
-                </button>
-                <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
-                  <i class="fas fa-times"></i>
-                </button>
-              </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <!-- Default box -->
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Ürün Listeleme Sayfası</h3>
+
+            <div class="card-tools">
+              <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                <i class="fas fa-minus"></i>
+              </button>
+              <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
+                <i class="fas fa-times"></i>
+              </button>
             </div>
-            <div class="card-body">
+          </div>
+          <div class="card-body">
 
-              <!-- Main content -->
+            <!-- Main content -->
 
-              <section class="content">
-                <div class="container-fluid">
-                  <div class="row">
-                    <!-- left column -->
-                    <div class="col-12 col-xl-6">
-                      <div class="card card-info">
-                        <div class="card-header d-flex align-items-center">
-                          <!-- SOL: Başlık -->
-                          <h3 class="card-title mb-0">Ürünler</h3>
+            <section class="content">
+              <div class="container-fluid">
+                <div class="row">
+                  <!-- left column -->
+                  <div class="col-12 col-xl-12">
+                    <div class="card card-info">
+                      <div class="card-header d-flex align-items-center">
 
-                          <!-- SAĞ: Filtre Dropdown -->
-                          <div class="ml-auto">
-                            <select id="productFilter" class="form-control form-control-sm w-auto">
-                              <option value="all">Tüm Ürünler</option>
-                              <option value="1">Aktif Ürünler</option>
-                              <option value="0">Pasif Ürünler</option>
-                            </select>
+                        <!-- SOL -->
+                        <h3 class="card-title mb-0 mr-3">Ürünler</h3>
+
+                        <!-- SEARCH -->
+                        <div class="input-group input-group-sm mr-2" style="max-width: 200px;">
+                          <input type="text" id="productSearch" class="form-control" placeholder="Ara...">
+                          <div class="input-group-append">
+                            <span class="input-group-text">
+                              <i class="fas fa-search"></i>
+                            </span>
                           </div>
                         </div>
 
-                        <div class="card-body">
-                          <form>
-                            <div id="productList">
-                              <?php foreach ($productsAll as $row): ?>
-                                <div class="form-group product-item" data-active="<?= $row['is_active'] ?>">
-                                  <div class="card <?= $row['is_active'] == 1 ? 'card-info' : 'card-secondary' ?> card-outline">
-                                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <!-- ➕ ÜRÜN EKLE (YENİ TASARIM) -->
+                    <a href="<?= base_url('panel/productInsertView') ?>"
+   class="btn btn-sm"
+   style="background:#e8f5e9; color:#2e7d32; border-radius:12px; padding:6px 14px; border:1px solid #c8e6c9;">
+   <i class="fas fa-plus mr-1"></i> Ürün Ekle
+</a>
 
-                                      <!-- SOL TARAF -->
-                                      <div class="d-flex align-items-center">
-                                        <a href="<?= base_url('panel/productsEditView/' . $row['id']) ?>" class="btn btn-tool btn-link mr-2">
-                                          <i class="fa fa-pen" style="color:orange"></i>
-                                        </a>
-                                        <h5 class="card-title mb-0"><?= $row['name'] ?></h5>
-                                      </div>
-
-                                      <!-- SAĞ TARAF -->
-                                      <div class="ml-auto">
-                                        <a href="<?= base_url('panel/products_info/' . $row['id'] . '/' . $row['is_active']) ?>">
-                                          <div class="custom-control custom-switch">
-                                            <input type="checkbox" class="custom-control-input" id="switch<?= $row['id'] ?>"
-                                              <?= $row['is_active'] == 1 ? 'checked' : '' ?>
-                                              onclick="event.preventDefault(); this.closest('a').click();">
-                                            <label class="custom-control-label" for="switch<?= $row['id'] ?>"></label>
-                                          </div>
-                                        </a>
-                                      </div>
-
-                                    </div>
-                                  </div>
-                                </div>
-                              <?php endforeach; ?>
-                            </div>
-                          </form>
+                        <!-- SAĞ -->
+                        <div class="ml-auto">
+                          <select id="productFilter" class="form-control form-control-sm">
+                            <option value="all">Tümünü Göster</option>
+                            <option value="1">Aktif</option>
+                            <option value="0">Pasif</option>
+                          </select>
                         </div>
+
+                      </div>
+
+                      <div class="card-body">
+                        <form>
+                          <div id="productList" class="row">
+                            <?php foreach ($productsAll as $row): ?>
+                              <div class="col-12 col-md-6 col-lg-3 product-item" data-active="<?= $row['is_active'] ?>">
+
+                                <div class="card <?= $row['is_active'] == 1 ? 'card-info' : 'card-secondary' ?> card-outline">
+
+                                  <div class="card-header d-flex justify-content-between align-items-center">
+
+                                    <!-- SOL -->
+                                    <div class="d-flex align-items-center">
+                                      <a href="<?= base_url('panel/productsEditView/' . $row['id']) ?>" class="btn btn-tool btn-link mr-2">
+                                        <i class="fa fa-pen" style="color:orange"></i>
+                                      </a>
+                                      <h5 class="card-title mb-0"><?= $row['name'] ?></h5>
+                                    </div>
+
+                                    <!-- SAĞ -->
+                                    <div class="ml-auto">
+                                      <a href="<?= base_url('panel/products_info/' . $row['id'] . '/' . $row['is_active']) ?>">
+                                        <div class="custom-control custom-switch">
+                                          <input type="checkbox" class="custom-control-input" id="switch<?= $row['id'] ?>"
+                                            <?= $row['is_active'] == 1 ? 'checked' : '' ?>
+                                            onclick="event.preventDefault(); this.closest('a').click();">
+                                          <label class="custom-control-label" for="switch<?= $row['id'] ?>"></label>
+                                        </div>
+                                      </a>
+                                    </div>
+
+                                  </div>
+
+                                </div>
+
+                              </div>
+                            <?php endforeach; ?>
+                          </div>
+                        </form>
                       </div>
                     </div>
+                  </div>
 
 
-<!--
+                  <!--
                     <div class="col-12 col-xl-6">
                       <section class="content pb-3">
                         <div class="container-fluid h-100">
@@ -140,28 +163,28 @@
               
                     </div>
                     -->
-                    <!--/.col (right) -->
-                  </div>
-                  <!-- /.row -->
-                </div><!-- /.container-fluid -->
-              </section>
-              <!-- /.content -->
-            </div>
-            <!-- /.content-wrapper -->
+                  <!--/.col (right) -->
+                </div>
+                <!-- /.row -->
+              </div><!-- /.container-fluid -->
+            </section>
+            <!-- /.content -->
+          </div>
+          <!-- /.content-wrapper -->
 
-          </div>
-          <!-- /.card-body -->
-          <div class="card-footer" style="text-align:center;">
-            Aktif Ürünler->Kilit tuşuna basıp ürünü pasife alabilirsiniz.Böylece müşterileriniz ürünü göremeyecektir..<br>
-            Aktif Ürünler->Kalem tuşna basıp ürünü düzenleyebilirsiniz.<br>
-            Pasif Ürünler->Kilit tuşuna basıp ürünü aktife alabilirsiniz.Böylece müşterileriniz tekrardan ürünü görebilecektir.<br>
-            Pasif Ürünler->Çöp kutusu tuşuna basarak ürünü silebilirsiniz.Öncelikle silinecek ürünü pasif hale getirmlisiniz<br>
-          </div>
-          <!-- /.card-footer-->
         </div>
-        <!-- /.card -->
+        <!-- /.card-body -->
+        <div class="card-footer" style="text-align:center;">
+          Aktif Ürünler->Kilit tuşuna basıp ürünü pasife alabilirsiniz.Böylece müşterileriniz ürünü göremeyecektir..<br>
+          Aktif Ürünler->Kalem tuşna basıp ürünü düzenleyebilirsiniz.<br>
+          Pasif Ürünler->Kilit tuşuna basıp ürünü aktife alabilirsiniz.Böylece müşterileriniz tekrardan ürünü görebilecektir.<br>
+          Pasif Ürünler->Çöp kutusu tuşuna basarak ürünü silebilirsiniz.Öncelikle silinecek ürünü pasif hale getirmlisiniz<br>
+        </div>
+        <!-- /.card-footer-->
       </div>
+      <!-- /.card -->
     </div>
+  </div>
 </div>
 
 <!-- /.content -->
@@ -173,20 +196,42 @@
 <!-- Filtreleme JS -->
 <script>
   const filterSelect = document.getElementById('productFilter');
+  const searchInput = document.getElementById('productSearch');
   const productItems = document.querySelectorAll('.product-item');
 
-  filterSelect.addEventListener('change', function() {
-    const filterValue = this.value;
+  function filterProducts() {
+    const filterValue = filterSelect.value;
+    const searchValue = searchInput.value.toLowerCase();
 
     productItems.forEach(item => {
       const isActive = item.getAttribute('data-active');
+      const productName = item.querySelector('.card-title').innerText.toLowerCase();
+
+      let showByFilter = false;
+      let showBySearch = false;
+
+      // dropdown filtre
       if (filterValue === 'all') {
-        item.style.display = 'block';
+        showByFilter = true;
       } else if (filterValue === isActive) {
+        showByFilter = true;
+      }
+
+      // search filtre
+      if (productName.includes(searchValue)) {
+        showBySearch = true;
+      }
+
+      // ikisini birleştir
+      if (showByFilter && showBySearch) {
         item.style.display = 'block';
       } else {
         item.style.display = 'none';
       }
     });
-  });
+  }
+
+  // eventler
+  filterSelect.addEventListener('change', filterProducts);
+  searchInput.addEventListener('keyup', filterProducts);
 </script>

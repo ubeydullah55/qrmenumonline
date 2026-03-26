@@ -51,6 +51,7 @@ $routes->group('panel', static function ($routes) {
     $routes->post('categoryEdit/(:num)', 'Home::categoryEdit/$1');
     $routes->get('categoryDelete/(:num)', 'Home::categoryDelete/$1');
     $routes->get('products_info/(:num)/(:num)', 'Home::productsInfo/$1/$2');
+    $routes->get('category_info/(:num)/(:num)', 'Home::categoryInfo/$1/$2');
     $routes->get('productsDelete/(:num)', 'Home::productsDelete/$1');
     $routes->get('productsEditView/(:num)', 'Home::productsEditView/$1');
     $routes->get('callView', 'Home::call_view');

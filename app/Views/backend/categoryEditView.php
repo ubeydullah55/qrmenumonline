@@ -60,10 +60,26 @@
                               <input type="text" name="category" class="form-control" id="exampleInputEmail1" value="<?= $categoryName ?>">
                             </div>
                           </div>
-                          <!-- /.card-body -->
+
+
+
                           <div class="card-footer">
-                            <button type="submit" class="btn btn-block btn-outline-warning btn-m">GÜNCELLE</button>
+                            <div class="row">
+                              <div class="col-12 d-flex justify-content-center flex-wrap">
+                                <!-- GÜNCELLE Butonu -->
+                                <button type="submit" class="btn btn-outline-warning btn-lg mr-2">
+                                  <i class="fa fa-pen mr-1"></i> GÜNCELLE
+                                </button>
+
+                                <!-- SİL Butonu -->
+                                <a href="#" data-url="<?= base_url('panel/categoryDelete/' . $categoryId) ?>"
+                                  class="btn btn-outline-danger btn-lg btn-delete">
+                                  <i class="fa fa-trash mr-1"></i> SİL
+                                </a>
+                              </div>
+                            </div>
                           </div>
+
                         </form>
                       </div>
                       <!-- /.card -->

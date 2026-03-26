@@ -102,11 +102,10 @@ class Home extends BaseController
         $data['deleteProductsList'] = $modelproducts->where('categories_id', $id)->where('firma_id', $this->firma->firma_id)->findAll();
 
         foreach ($data['deleteProductsList'] as $row) {
-            $path = './img/product/' . $row['img'];
+            $path = './img/product/' . $this->firma->firma_id . '/' . $row['img'];
             unlink($path);
-            $productsdeleted = $modelproducts->delete($row['id']);
         }
-
+        $productsdeleted = $modelproducts->where('categories_id', $id)->where('firma_id', $this->firma->firma_id)->delete();
         $session = session();
         session()->setFlashdata('success', 'Kategori silme başarılı');
         return redirect()->to('panel/category');
@@ -166,6 +165,42 @@ class Home extends BaseController
             $session = session();
             session()->setFlashdata('danger', '-HATA- Bir hata oluştu');
             return redirect()->to('panel/product');
+        }
+    }
+
+
+    public function categoryInfo($id, $info)
+    {
+        $modelcategory = new \App\Models\CategoryModel();
+        $modelproducts = new \App\Models\ProductsModel();
+        $data['product'] = $modelcategory->find($id);
+        $session = session();
+        if ($info == 1) {
+            $categoryPassive = $modelcategory->where('id', $id)->where('firma_id', $this->firma->firma_id)->set('is_active', 0)->update();
+            if ($categoryPassive) {
+                $productPassive = $modelproducts->where('categories_id', $id)->where('firma_id', $this->firma->firma_id)->set('is_active', 0)->update();
+                if (!$productPassive) {
+                    session()->setFlashdata('danger', '-HATA- Bir hata oluştu');
+                    return redirect()->to('panel/category');
+                }
+                session()->setFlashdata('success', 'BAŞARILI Kategori Ve Ürünler Pasif hale getirildi...');
+                return redirect()->to('panel/category');
+            }
+        }
+        if ($info == 0) {
+            $categoryActive = $modelcategory->where('id', $id)->where('firma_id', $this->firma->firma_id)->set('is_active', 1)->update();
+            if ($categoryActive) {
+                $productActive = $modelproducts->where('categories_id', $id)->where('firma_id', $this->firma->firma_id)->set('is_active', 1)->update();
+                if (!$productActive) {
+                    session()->setFlashdata('danger', '-HATA- Bir hata oluştu');
+                    return redirect()->to('panel/category');
+                }
+                session()->setFlashdata('success', 'BAŞARILI Kategori Aktif hale getirildi...');
+                return redirect()->to('panel/category');
+            }
+        } else {
+            session()->setFlashdata('danger', '-HATA- Bir hata oluştu');
+            return redirect()->to('panel/category');
         }
     }
 
@@ -580,13 +615,12 @@ class Home extends BaseController
     {
         $modelFirmalar = new \App\Models\FirmalarModel;
         $firma_id = $this->firma->firma_id;
-        if($firma_id==1) {
+        if ($firma_id == 1) {
             $data['firmalar'] = $modelFirmalar->findAll();
             return view('/backend/firmalistView', $data);
         } else {
             return view('/backend/panel'); // Diğer firmalar sadece paneli görebilir, firma listesine erişemezler
         }
-       
     }
 
     public function firmadelete($id)
