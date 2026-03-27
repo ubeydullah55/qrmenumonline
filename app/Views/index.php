@@ -181,19 +181,19 @@
             <div class="col-lg-8 slider-wrapper">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="carousel-item active" data-demo="<?= base_url('menu1') ?>">
+                        <div class="carousel-item active" data-demo="<?= str_replace('://', '://demo1.', base_url('')) ?>">
                             <h4>Modern Menü Şablonu 1</h4>
                             <img src="<?= base_url('assets/satis'); ?>/menu1.png" alt="Menu 1">
                         </div>
-                        <div class="carousel-item" data-demo="<?= base_url('menu2') ?>">
+                        <div class="carousel-item" data-demo="<?= str_replace('://', '://demo2.', base_url('')) ?>">
                             <h4>Şık Menü Şablonu 2</h4>
                             <img src="<?= base_url('assets/satis'); ?>/menu2.png" alt="Menu 2">
                         </div>
-                        <div class="carousel-item" data-demo="<?= base_url('menu3') ?>">
+                        <div class="carousel-item" data-demo="<?= str_replace('://', '://demo3.', base_url('')) ?>">
                             <h4>Zarif Menü Şablonu 3</h4>
                             <img src="<?= base_url('assets/satis'); ?>/menu3.png" alt="Menu 3">
                         </div>
-                        <div class="carousel-item" data-demo="<?= base_url('menu4') ?>">
+                        <div class="carousel-item" data-demo="<?= str_replace('://', '://demo4.', base_url('')) ?>">
                             <h4>Premium Menü Şablonu 4</h4>
                             <img src="<?= base_url('assets/satis'); ?>/menu4.png" alt="Menu 4">
                         </div>
