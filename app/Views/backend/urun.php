@@ -52,37 +52,45 @@
                   <!-- left column -->
                   <div class="col-12 col-xl-12">
                     <div class="card card-info">
-                      <div class="card-header d-flex align-items-center">
+                      <div class="card-header">
+                        <div class="row align-items-center">
 
-                        <!-- SOL -->
-                        <h3 class="card-title mb-0 mr-3">Ürünler</h3>
-
-                        <!-- SEARCH -->
-                        <div class="input-group input-group-sm mr-2" style="max-width: 200px;">
-                          <input type="text" id="productSearch" class="form-control" placeholder="Ara...">
-                          <div class="input-group-append">
-                            <span class="input-group-text">
-                              <i class="fas fa-search"></i>
-                            </span>
+                          <!-- SOL BAŞLIK -->
+                          <div class="col-12 col-md-auto mb-2 mb-md-0">
+                            <h3 class="card-title mb-0">Ürünler</h3>
                           </div>
+
+                          <!-- SEARCH -->
+                          <div class="col-12 col-md-3 mb-2 mb-md-0">
+                            <div class="input-group input-group-sm">
+                              <input type="text" id="productSearch" class="form-control" placeholder="Ara...">
+                              <div class="input-group-append">
+                                <span class="input-group-text">
+                                  <i class="fas fa-search"></i>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- ÜRÜN EKLE -->
+                          <div class="col-6 col-md-auto mb-2 mb-md-0">
+                            <a href="<?= base_url('panel/productInsertView') ?>"
+                              class="btn btn-sm w-100"
+                              style="background:#e8f5e9; color:#2e7d32; border-radius:12px; border:1px solid #c8e6c9;">
+                              <i class="fas fa-plus mr-1"></i> Ürün Ekle
+                            </a>
+                          </div>
+
+                          <!-- FİLTRE -->
+                          <div class="col-6 col-md-auto ml-md-auto">
+                            <select id="productFilter" class="form-control form-control-sm">
+                              <option value="all">Tümünü Göster</option>
+                              <option value="1">Aktif</option>
+                              <option value="0">Pasif</option>
+                            </select>
+                          </div>
+
                         </div>
-
-                        <!-- ➕ ÜRÜN EKLE (YENİ TASARIM) -->
-                    <a href="<?= base_url('panel/productInsertView') ?>"
-   class="btn btn-sm"
-   style="background:#e8f5e9; color:#2e7d32; border-radius:12px; padding:6px 14px; border:1px solid #c8e6c9;">
-   <i class="fas fa-plus mr-1"></i> Ürün Ekle
-</a>
-
-                        <!-- SAĞ -->
-                        <div class="ml-auto">
-                          <select id="productFilter" class="form-control form-control-sm">
-                            <option value="all">Tümünü Göster</option>
-                            <option value="1">Aktif</option>
-                            <option value="0">Pasif</option>
-                          </select>
-                        </div>
-
                       </div>
 
                       <div class="card-body">

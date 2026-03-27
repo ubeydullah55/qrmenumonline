@@ -78,10 +78,10 @@
                                   </a>
 
                                   <!-- Sil -->
-                                  <a href="<?= base_url('panel/firmadelete/' . $firma['firma_id']) ?>"
-                                    class="btn btn-outline-danger btn-sm"
-                                    onclick="return confirm('Silmek istediğine emin misin?')">
-                                    <i class="fa fa-trash"></i>
+                                  <a href="#"
+                                    data-url="<?= base_url('panel/firmadelete/' . $firma['firma_id']) ?>"
+                                   class="btn btn-outline-danger btn-sm btn-delete">
+                                    <i class="fa fa-trash" aria-hidden="true" style="color:#cd5c5c"></i>
                                   </a>
                                 </div>
                               </td>

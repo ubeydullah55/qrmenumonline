@@ -18,6 +18,13 @@ class Anasayfa extends Controller
 
   public function index()
   {
+
+     // Eğer firma yoksa (slug yoksa)
+    if (!isset($this->firma) || !$this->firma) {
+        // Ana domain için yönlendir
+        return view('/index'); // veya istediğin ana sayfa
+    }
+
     $modelSettings = new \App\Models\SettingsModel();
     $data['settings'] = $modelSettings->where('firma_id', $this->firma->firma_id)->first();
     // Tek satır olduğu için first() kullandık, [0] yerine

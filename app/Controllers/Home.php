@@ -646,6 +646,15 @@ class Home extends BaseController
         $modelproducts->where('firma_id', $id)->delete();
         $modelcategories->where('firma_id', $id)->delete();
 
+        helper('filesystem');
+
+        $path = FCPATH . 'img/product/' . $id;
+
+        if (is_dir($path)) {
+            delete_files($path, true); // içini sil
+            rmdir($path); // klasörü sil
+        }
+
         session()->setFlashdata('success', 'Firma ve ilişkili veriler başarıyla silindi');
         return redirect()->to('panel/firmalistView');
     }

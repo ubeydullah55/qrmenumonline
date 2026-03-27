@@ -215,7 +215,7 @@
                     data-name="<?= $item['name']; ?>"
                     data-price="<?= $item['price']; ?>"
                     data-info="<?= $item['info']; ?>"
-                    data-img="<?= base_url('img/product/'. session()->get('firma')->firma_id . '/'. $item['img']); ?>">
+                    data-img="<?= base_url('img/product/' . session()->get('firma')->firma_id . '/' . $item['img']); ?>">
 
                     <?php if ($status[0]['resim'] == 1): ?>
                         <img src="<?= base_url('img/product/' . session()->get('firma')->firma_id . '/' . $item['img']); ?>" alt="">
