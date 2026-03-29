@@ -52,6 +52,50 @@
             white-space: nowrap;
             /* yazıyı tek satırda tut */
         }
+
+        /*Dil özellikleri */
+        .lang-dropdown {
+            position: relative;
+        }
+
+        .selected-lang img {
+            width: 24px;
+            cursor: pointer;
+        }
+
+        .lang-menu {
+            display: none;
+            position: absolute;
+            top: 30px;
+            background: white;
+            padding: 5px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            z-index: 9999;
+        }
+
+        .lang-menu img {
+            width: 24px;
+            margin: 3px;
+            cursor: pointer;
+        }
+
+        .lang-menu img:hover {
+            transform: scale(1.2);
+            transition: 0.2s;
+        }
+
+        /* GOOGLE BAR KAPAT */
+        .goog-te-banner-frame.skiptranslate {
+            display: none !important;
+        }
+
+        body {
+            top: 0px !important;
+        }
+
+
+        /*Dil özellikleri */
     </style>
 </head>
 
@@ -70,37 +114,29 @@
                                                                     } ?>" alt="logo_resim">
                 </a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarContent">
-                    <ul class="navbar-nav mx-auto">
-                    </ul>
-
-                    <div class="d-flex align-items-center ms-auto">
-                        <?php if (!empty($settings['instagramUrl'])) : ?>
-                            <a href="<?= $settings['instagramUrl'] ?>" target="_blank" class="text-white d-flex align-items-center ms-3">
-                                <i class="fab fa-instagram" style="margin-right:5px;"></i>
-                                <span> Instagram</span>
-                            </a>
-                        <?php endif; ?>
-
-                        <?php if (!empty($settings['twitterUrl'])) : ?>
-                            <a href="<?= $settings['twitterUrl'] ?>" target="_blank" class="text-white d-flex align-items-center ms-3">
-                                <i class="fab fa-twitter" style="margin-right:5px;"></i>
-                                <span> Twitter</span>
-                            </a>
-                        <?php endif; ?>
-
-                        <?php if (!empty($settings['facebookUrl'])) : ?>
-                            <a href="<?= $settings['facebookUrl'] ?>" target="_blank" class="text-white d-flex align-items-center ms-3">
-                                <i class="fab fa-facebook" style="margin-right:5px;"></i>
-                                <span> Facebook</span>
-                            </a>
-                        <?php endif; ?>
+                <!-- === BAŞLANGIÇ: Dil Seçimi === -->
+                <div class="lang-dropdown me-3">
+                    <div class="selected-lang" onclick="toggleLangMenu()">
+                        <img id="selectedFlag"
+                            src="<?= base_url('assets/flags/tr.png') ?>"
+                            data-base="<?= base_url('assets/flags/') ?>"
+                            title="Türkçe">
+                    </div>
+                    <div id="langMenu" class="lang-menu">
+                        <img src="<?= base_url('assets/flags/tr.png') ?>" onclick="selectLang('tr','tr')" title="Türkçe">
+                        <img src="<?= base_url('assets/flags/gb.png') ?>" onclick="selectLang('en','gb')" title="English">
+                        <img src="<?= base_url('assets/flags/de.png') ?>" onclick="selectLang('de','de')" title="Deutsch">
+                        <img src="<?= base_url('assets/flags/ru.png') ?>" onclick="selectLang('ru','ru')" title="Русский">
+                        <img src="<?= base_url('assets/flags/sa.png') ?>" onclick="selectLang('ar','sa')" title="العربية">
+                        <img src="<?= base_url('assets/flags/fr.png') ?>" onclick="selectLang('fr','fr')" title="Français">
+                        <img src="<?= base_url('assets/flags/es.png') ?>" onclick="selectLang('es','es')" title="Español">
+                        <img src="<?= base_url('assets/flags/it.png') ?>" onclick="selectLang('it','it')" title="Italiano">
                     </div>
                 </div>
+                <!-- GOOGLE TRANSLATE -->
+                <div id="google_translate_element" style="display:none;"></div>
+
+                <!-- === BİTİŞ: Dil Seçimi === -->
             </nav>
 
 
@@ -259,7 +295,7 @@
                         <?php if ($status[0]['aciklama'] == 1) : ?>
                             <p id="modalProductInfo" class="text-muted"></p>
                         <?php endif; ?>
-                        
+
                         <?php if ($status[0]['fiyat'] == 1) : ?>
                             <span id="modalProductPrice" class="text-primary fw-bold fs-4"></span>
                         <?php endif; ?>
@@ -313,6 +349,67 @@
                 });
             });
         </script>
+
+
+        <!-- === BAŞLANGIÇ: Dil Seçimi === -->
+        <script>
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({
+                    pageLanguage: 'tr',
+                    includedLanguages: 'en,de,ru,ar,fr,es,it,tr',
+                    autoDisplay: false
+                }, 'google_translate_element');
+            }
+
+            function toggleLangMenu() {
+                var menu = document.getElementById("langMenu");
+                menu.style.display = menu.style.display === "block" ? "none" : "block";
+            }
+
+            function selectLang(lang, flag) {
+                // HTML'deki data-base attribute ile base URL alıyoruz
+                var img = document.getElementById("selectedFlag");
+                var base = img.dataset.base;
+
+                if (!base.endsWith('/')) base += '/'; // eksikse / ekle
+                img.src = base + flag + ".png";
+
+                localStorage.setItem("selectedLang", lang);
+                localStorage.setItem("selectedFlag", flag);
+
+                var interval = setInterval(function() {
+                    var select = document.querySelector(".goog-te-combo");
+                    if (select) {
+                        select.value = lang;
+                        select.dispatchEvent(new Event('change'));
+                        clearInterval(interval);
+                    }
+                }, 300);
+
+                document.getElementById("langMenu").style.display = "none";
+            }
+
+            document.addEventListener("DOMContentLoaded", function() {
+                var img = document.getElementById("selectedFlag");
+                var base = img.dataset.base;
+
+                var savedLang = localStorage.getItem("selectedLang");
+                var savedFlag = localStorage.getItem("selectedFlag");
+
+                if (savedFlag) {
+                    img.src = base + savedFlag + ".png";
+                }
+                if (savedLang) {
+                    selectLang(savedLang, savedFlag);
+                }
+            });
+        </script>
+
+        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <!-- === BİTİŞ: Dil Seçimi === -->
+
+
+
 
         <script src="<?= base_url('assets/frontend/menu2'); ?>/js/main.js"></script>
 </body>

@@ -16,6 +16,7 @@ class FirmalarModel extends Model
         'creadet_user',
         'template',
         'price',
-        'aciklama'
+        'aciklama',
+        'is_demo',
     ];
 }
