@@ -497,6 +497,9 @@ class Home extends BaseController
         $hakkimizda = $this->request->getPost('hakkimizda');
         $haftaIci = $this->request->getPost('haftaIci');
         $haftaSonu = $this->request->getPost('haftaSonu');
+        $wifi = $this->request->getPost('wifi');
+        $wifipass = $this->request->getPost('wifipass');
+        $googleyorum = $this->request->getPost('googleyorum');
 
 
         if ($id > 0) //veritabanında bir kayıt varsa
@@ -522,6 +525,9 @@ class Home extends BaseController
                 'hakkimizda' => $hakkimizda,
                 'haftaIci' => $haftaIci,
                 'haftaSonu' => $haftaSonu,
+                'wifi' => $wifi,
+                'wifipass'=>$wifipass,
+                'googleyorum' => $googleyorum,
                 'firma_id' => $this->firma->firma_id,
             );
             $settingsUpdate = $modelSettings->where('id', $id)->where('firma_id', $this->firma->firma_id)->set($changeGroup)->update();
@@ -547,6 +553,9 @@ class Home extends BaseController
                 'logo_url' => $imgName,
                 'favIcon_url' => $imgName2,
                 'firma_id' => $this->firma->firma_id,
+                'googleyorum' => $googleyorum,
+                'wifi' => $wifi,
+                'wifipass'=>$wifipass,
             );
             $settingsInsert = $modelSettings->insert($changeGroup);
             if ($settingsInsert) {

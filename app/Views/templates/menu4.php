@@ -101,7 +101,7 @@
             border-color: var(--dark-bg);
         }
 
-        /* Ürün Kartları - 2'li Grid */
+        /* Menü listesi grid yapısı */
         .menu-list {
             padding: 20px;
             display: grid;
@@ -109,18 +109,24 @@
             gap: 20px;
             max-width: 1200px;
             margin: 0 auto;
+            align-items: stretch;
+            /* Kartları eşit yüksek yapar */
         }
 
+        /* Menü kartları */
         .menu-item {
+            display: flex;
+            flex-direction: column;
             background: var(--card-bg);
             border-radius: 12px;
             overflow: hidden;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-            display: flex;
-            flex-direction: column;
-            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             border: 1px solid #f0f0f0;
+            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
+
+
+
 
         .menu-item:hover {
             transform: translateY(-8px);
@@ -132,32 +138,33 @@
             object-fit: cover;
         }
 
+        /* Menü bilgileri */
         .menu-info {
             padding: 15px;
             text-align: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-grow: 1;
+            /* Kartın geri kalanını kaplasın */
         }
 
-        .menu-info h6 {
-            font-family: 'Playfair Display', serif;
-            font-weight: 700;
-            font-size: 1.1rem;
-            margin-bottom: 5px;
-        }
-
+        .menu-info h6,
         .menu-info small {
             display: -webkit-box;
-            -webkit-line-clamp: 2;
-            line-clamp: 2;
+            /* Flex değil, box model */
+            -webkit-line-clamp: 3;
+            line-clamp: 3;
+            /* Maksimum 3 satır */
             -webkit-box-orient: vertical;
             overflow: hidden;
-            color: #777;
-            font-size: 0.8rem;
-            height: 2.4em;
+            text-overflow: ellipsis;
+            /* … ile göster */
         }
 
-        .price {
-            display: block;
-            margin-top: 10px;
+        /* Fiyatı her zaman kartın altına sabitle */
+        .menu-info .price {
+            margin-top: auto;
             font-weight: 600;
             color: var(--primary-color);
             font-size: 1.1rem;
@@ -194,19 +201,30 @@
             object-fit: cover;
         }
 
-        /* Mobil Uyumluluk */
+
+
+        /* Default kart resmi yüksekliği (tablet ve üstü dahil) */
+        .menu-item img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+        }
+
+        /* Büyük ekranlarda resmi büyüt */
+        @media(min-width: 992px) {
+
+            /* Large ekranlar */
+            .menu-item img {
+                height: 260px;
+                /* İstediğin yükseklik */
+            }
+        }
+
+        /* Mobil uyumluluk */
         @media(max-width: 576px) {
-            .menu-list {
-                gap: 10px;
-                padding: 10px;
-            }
-
-            .hero h1 {
-                font-size: 2rem;
-            }
-
             .menu-item img {
                 height: 130px;
+                /* Küçük ekranlarda düşük yükseklik */
             }
         }
 
@@ -286,7 +304,62 @@
         <div id="google_translate_element" style="display:none;"></div>
 
         <!-- === BİTİŞ: Dil Seçimi === -->
+
+
+
+        <!-- Hamburger Menu (sol menü) -->
+        <button class="btn btn-dark ms-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#sideMenu" aria-controls="sideMenu">
+            <i class="fa-solid fa-bars fa-lg"></i>
+        </button>
+
+        <!-- Sol Offcanvas Menü -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="sideMenu" aria-labelledby="sideMenuLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="sideMenuLabel">Menü</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body d-flex flex-column gap-3">
+
+                <?php if (!empty($settings['wifi'])): ?>
+                    <button class="btn btn-outline-primary w-100 text-start" data-bs-toggle="modal" data-bs-target="#wifiModal">
+                        <i class="fa-solid fa-wifi me-2"></i> Wifi
+                    </button>
+                <?php endif; ?>
+
+                <?php if (!empty($settings['hakkimizda'])): ?>
+                    <button class="btn btn-outline-secondary w-100 text-start" data-bs-toggle="modal" data-bs-target="#aboutModal">
+                        <i class="fa-solid fa-circle-info me-2"></i> Hakkımızda
+                    </button>
+                <?php endif; ?>
+
+                <?php if (!empty($settings['instagramUrl']) || !empty($settings['facebookUrl']) || !empty($settings['twitterUrl'])): ?>
+                    <button class="btn w-100 text-start" data-bs-toggle="modal" data-bs-target="#socialModal"
+                        style="border:2px solid #E1306C; color:#E1306C; font-weight:600;">
+                        <i class="fa-brands fa-instagram me-2" style="color:#E1306C;"></i> Sosyal Medya
+                    </button>
+                <?php endif; ?>
+
+                <?php if (!empty($settings['googleyorum'])): ?>
+                    <button class="btn w-100 text-start" data-bs-toggle="modal" data-bs-target="#googleReviewModal"
+                        style="
+            background: linear-gradient(135deg, #4285F4 0%, #EA4335 33%, #FBBC05 66%, #34A853 100%);
+            color: white;
+            font-weight: 600;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 12px;
+        ">
+                        <i class="fa-brands fa-google me-2" style="color:white;"></i> Bizi Değerlendir
+                    </button>
+                <?php endif; ?>
+
+            </div>
+        </div>
+
+
     </nav>
+
+
 
     <div class="hero">
         <h1><?= $settings['companyName'] ?></h1>
@@ -358,8 +431,123 @@
         </div>
     </div>
 
+
+    <!-- Google Yorum Modal -->
+    <div class="modal fade" id="googleReviewModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" style="border-radius:20px; padding:20px;">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title">Bizi Google'da Değerlendir</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p>Yorumunuzu Google üzerinde bırakabilirsiniz.</p>
+                    <a href="<?= $settings['googleyorum'] ?>" target="_blank" class="btn"
+                        style="background:#4285F4; color:white; border-radius:10px; padding:10px 20px; font-weight:600;">
+                        Google Yorum Yap
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Wifi Modal -->
+    <div class="modal fade" id="wifiModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" style="border-radius:20px; padding:15px;">
+                <div class="modal-header">
+                    <h5 class="modal-title">Wifi Bilgileri</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div style="margin-bottom:10px;">
+                        <label>Wifi Adı</label>
+                        <div style="display:flex; gap:5px;">
+                            <input type="text" id="wifiName" class="form-control" value="<?= $settings['wifi'] ?>" readonly>
+                            <i class="fa-solid fa-copy" style="cursor:pointer; align-self:center; color:#555;" onclick="copyText('wifiName')"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <label>Şifre</label>
+                        <div style="display:flex; gap:5px;">
+                            <input type="text" id="wifiPass" class="form-control" value="<?= $settings['wifipass'] ?>" readonly>
+                            <i class="fa-solid fa-copy" style="cursor:pointer; align-self:center; color:#555;" onclick="copyText('wifiPass')"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hakkımızda Modal -->
+    <div class="modal fade" id="aboutModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" style="border-radius:20px; padding:15px;">
+                <div class="modal-header">
+                    <h5 class="modal-title">Hakkımızda</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <?= $settings['hakkimizda'] ?>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sosyal Medya Modal -->
+    <div class="modal fade" id="socialModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" style="border-radius:20px; padding:20px;">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title">Sosyal Medya</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body d-flex flex-wrap justify-content-center gap-3 pt-2">
+
+                    <?php if (!empty($settings['instagramUrl'])): ?>
+                        <a href="<?= $settings['instagramUrl'] ?>" target="_blank"
+                            style="text-decoration:none; display:flex; flex-direction:column; align-items:center; justify-content:center;
+                              width:80px; height:80px; border-radius:15px; background:#E1306C; color:white; font-weight:600;">
+                            <i class="fa-brands fa-instagram" style="font-size:28px;"></i>
+                            <span style="font-size:12px; margin-top:4px;">Instagram</span>
+                        </a>
+                    <?php endif; ?>
+
+                    <?php if (!empty($settings['facebookUrl'])): ?>
+                        <a href="<?= $settings['facebookUrl'] ?>" target="_blank"
+                            style="text-decoration:none; display:flex; flex-direction:column; align-items:center; justify-content:center;
+                              width:80px; height:80px; border-radius:15px; background:#1877F2; color:white; font-weight:600;">
+                            <i class="fa-brands fa-facebook" style="font-size:28px;"></i>
+                            <span style="font-size:12px; margin-top:4px;">Facebook</span>
+                        </a>
+                    <?php endif; ?>
+
+                    <?php if (!empty($settings['twitterUrl'])): ?>
+                        <a href="<?= $settings['twitterUrl'] ?>" target="_blank"
+                            style="text-decoration:none; display:flex; flex-direction:column; align-items:center; justify-content:center;
+                              width:80px; height:80px; border-radius:15px; background:#1DA1F2; color:white; font-weight:600;">
+                            <i class="fa-brands fa-twitter" style="font-size:28px;"></i>
+                            <span style="font-size:12px; margin-top:4px;">Twitter</span>
+                        </a>
+                    <?php endif; ?>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function copyText(id) {
+            var copyText = document.getElementById(id);
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            alert("Kopyalandı: " + copyText.value);
+        }
+    </script>
     <script>
         $(document).ready(function() {
             // Filtreleme

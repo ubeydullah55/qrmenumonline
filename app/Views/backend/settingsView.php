@@ -62,6 +62,21 @@
                                             id="exampleInputEmail1" required>
                                     </div>
                                     <div class="form-group">
+                                        <label for="exampleInputEmail1">Wifi Adı</label>
+                                        <input type="text" class="form-control" name="wifi" value="<?= $settings['wifi'] ?>"
+                                            id="exampleInputEmail1">
+                                    </div>
+                                       <div class="form-group">
+                                        <label for="exampleInputEmail1">Wifi Şifresi</label>
+                                        <input type="text" class="form-control" name="wifipass" value="<?= $settings['wifipass'] ?>"
+                                            id="exampleInputEmail1">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Google Yorumlar</label>
+                                        <input type="text" class="form-control" name="googleyorum" value="<?= $settings['googleyorum'] ?>"
+                                            id="exampleInputEmail1">
+                                    </div>
+                                    <div class="form-group">
                                         <label for="exampleInputEmail1">İnstagram Adresi</label>
                                         <input type="text" class="form-control" name="instagramUrl" value="<?= $settings['instagramUrl'] ?>"
                                             id="exampleInputEmail1">
