@@ -1,184 +1,56 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 
 <head>
-    <link rel="shortcut icon" href="<?php if (isset($settings['favIcon_url'])) {
-                                        echo base_url('img/settings/' . $settings['favIcon_url']);
-                                    }  ?>" type="">
     <meta charset="utf-8">
     <title><?= $settings['companyName'] ?></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <link rel="shortcut icon" href="<?php if (isset($settings['favIcon_url'])) {
+                                        echo base_url('img/settings/' . $settings['favIcon_url']);
+                                    } ?>" type="">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="<?= base_url('assets/frontend/menu2/menu2'); ?>/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="<?= base_url('assets/frontend/menu2'); ?>/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="<?= base_url('assets/frontend/menu2'); ?>/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <link href="<?= base_url('assets/frontend/menu2'); ?>/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="<?= base_url('assets/frontend/menu2'); ?>/css/style.css" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Nunito', sans-serif;
-            background: #f2f2f7;
-            margin: 0;
-        }
-
-        /* Navbar */
-        .navbar {
-           background: linear-gradient(145deg, #ff6b6b, #f06595);
-          
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-        }
-
-        .navbar a.navbar-brand img {
-            border-radius: 50%;
-            border: 2px solid #fff;
-        }
-
-        /* Hero */
-        .hero {
-            background: linear-gradient(145deg, #ff6b6b, #f06595);
-            color: #fff;
-            padding: 60px 20px;
-            text-align: center;
-            font-family: 'Pacifico', cursive;
-        }
-
-        .hero h1 {
-            font-size: 2.5rem;
-            letter-spacing: 2px;
-        }
-
-        .hero p {
-            font-size: 1.05rem;
-            opacity: 0.85;
-        }
-
-        /* Filters */
         .filters-wrapper {
-            background: #fff;
-            padding: 12px;
-            border-bottom: 2px solid #ff6b6b;
             overflow-x: auto;
+            /* sağa sola kaydır */
+            -webkit-overflow-scrolling: touch;
+            /* mobilde smooth */
+            scrollbar-width: none;
+            /* Firefox scrollbar gizle */
+        }
+
+        .filters-wrapper::-webkit-scrollbar {
+            display: none;
+            /* Chrome/Safari scrollbar gizle */
+        }
+
+        .filters_menu {
+            flex-wrap: nowrap !important;
+            /* alt satıra geçme, tek satırda kalsın */
+        }
+
+        .filters_menu h6 {
             white-space: nowrap;
-        }
-
-        .filters-wrapper a {
-            display: inline-block;
-            margin: 0 8px;
-            padding: 10px 22px;
-            border-radius: 30px;
-            background: #ffe6e6;
-            color: #ff6b6b;
-            font-weight: 600;
-            text-decoration: none;
-            transition: 0.3s;
-        }
-
-        .filters-wrapper a.active,
-        .filters-wrapper a:hover {
-            background: #ff6b6b;
-            color: #fff;
-        }
-
-        /* Menu List */
-        /* Menu Listesi: Grid ile 2 ürün yan yana her ekran boyutunda mobilde */
-        .menu-list {
-            padding: 20px 10px;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            /* her zaman iki kolon */
-            gap: 15px;
-            justify-items: center;
-        }
-
-        .menu-item {
-            background: #fff;
-            border-radius: 20px;
-            padding: 15px;
-            width: 100%;
-            /* grid kolon genişliğine uyacak */
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            transition: 0.3s;
-            cursor: pointer;
-        }
-
-        .menu-item:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-        }
-
-        .menu-item img {
-            width: 120px;
-            height: 120px;
-            object-fit: cover;
-            border-radius: 50%;
-            border: 3px solid #ff6b6b;
-            margin-bottom: 12px;
-        }
-
-        .menu-info h6 {
-            margin: 5px 0;
-            font-weight: 700;
-            font-size: 1.1rem;
-            color: #333;
-            text-align: center;
-        }
-
-        .menu-info small {
-            display: -webkit-box;
-            /* Eski ve WebKit tarayıcılar için */
-            -webkit-box-orient: vertical;
-            -webkit-line-clamp: 2;
-            /* Görünecek satır sayısı */
-            line-clamp: 2;
-            /* Standard property untuk kompatibilitas */
-            overflow: hidden;
-            /* Taşan kısmı gizle */
-            text-overflow: ellipsis;
-            /* Sonuna ... ekle */
-            line-height: 1.4em;
-            /* Satır yüksekliği */
-            max-height: calc(1.4em * 2);
-            /* line-clamp ile aynı satır sayısı */
-            color: #666;
-            font-size: 0.9rem;
-            margin-top: 4px;
-        }
-
-        .price {
-            margin-top: 5px;
-            font-weight: 700;
-            color: #ff6b6b;
-            font-size: 1rem;
-        }
-
-        /* Footer */
-        .footer {
-            background: #ff6b6b;
-            color: #fff;
-            text-align: center;
-            padding: 30px 20px;
-            margin-top: 30px;
-        }
-
-        .footer a {
-            color: #fff;
-            margin: 0 6px;
-            font-size: 1.2rem;
-        }
-
-        /* Responsive mobile */
-        @media(max-width:767.98px) {
-            .menu-item {
-                width: 48%;
-                /* iki yan yana mobilde */
-            }
-        }
-
-        @media(max-width:480px) {
-            .menu-item {
-                width: 100%;
-                /* çok küçük ekranda tek kolon */
-            }
+            /* yazıyı tek satırda tut */
         }
 
         /*Dil özellikleri */
@@ -228,197 +100,486 @@
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-dark px-3 py-2 sticky-top">
-        <a href="">
-            <img style="max-width:70px;" src="<?= isset($settings['logo_url']) ? base_url('img/settings/' . $settings['logo_url']) : '' ?>" alt="logo">
-        </a>
-
-        <!-- === BAŞLANGIÇ: Dil Seçimi === -->
-        <div class="lang-dropdown me-3">
-            <div class="selected-lang" onclick="toggleLangMenu()">
-                <img id="selectedFlag"
-                    src="<?= base_url('assets/flags/tr.png') ?>"
-                    data-base="<?= base_url('assets/flags/') ?>"
-                    title="Türkçe">
-            </div>
-            <div id="langMenu" class="lang-menu">
-                <img src="<?= base_url('assets/flags/tr.png') ?>" onclick="selectLang('tr','tr')" title="Türkçe">
-                <img src="<?= base_url('assets/flags/gb.png') ?>" onclick="selectLang('en','gb')" title="English">
-                <img src="<?= base_url('assets/flags/de.png') ?>" onclick="selectLang('de','de')" title="Deutsch">
-                <img src="<?= base_url('assets/flags/ru.png') ?>" onclick="selectLang('ru','ru')" title="Русский">
-                <img src="<?= base_url('assets/flags/sa.png') ?>" onclick="selectLang('ar','sa')" title="العربية">
-                <img src="<?= base_url('assets/flags/fr.png') ?>" onclick="selectLang('fr','fr')" title="Français">
-                <img src="<?= base_url('assets/flags/es.png') ?>" onclick="selectLang('es','es')" title="Español">
-                <img src="<?= base_url('assets/flags/it.png') ?>" onclick="selectLang('it','it')" title="Italiano">
+    <div class="container-xxl bg-white p-0">
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
             </div>
         </div>
-        <!-- GOOGLE TRANSLATE -->
-        <div id="google_translate_element" style="display:none;"></div>
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <img style="max-width:100%;height:auto;" src="<?php if (isset($settings['logo_url'])) {
+                                                                        echo base_url('img/settings/' . $settings['logo_url']);
+                                                                    } ?>" alt="logo_resim">
+                </a>
+                <div class="ms-auto d-flex align-items-center gap-2">
+                    <!-- === BAŞLANGIÇ: Dil Seçimi === -->
+                    <div class="lang-dropdown me-3">
+                        <div class="selected-lang" onclick="toggleLangMenu()">
+                            <img id="selectedFlag"
+                                src="<?= base_url('assets/flags/tr.png') ?>"
+                                data-base="<?= base_url('assets/flags/') ?>"
+                                title="Türkçe">
+                        </div>
+                        <div id="langMenu" class="lang-menu">
+                            <img src="<?= base_url('assets/flags/tr.png') ?>" onclick="selectLang('tr','tr')" title="Türkçe">
+                            <img src="<?= base_url('assets/flags/gb.png') ?>" onclick="selectLang('en','gb')" title="English">
+                            <img src="<?= base_url('assets/flags/de.png') ?>" onclick="selectLang('de','de')" title="Deutsch">
+                            <img src="<?= base_url('assets/flags/ru.png') ?>" onclick="selectLang('ru','ru')" title="Русский">
+                            <img src="<?= base_url('assets/flags/sa.png') ?>" onclick="selectLang('ar','sa')" title="العربية">
+                            <img src="<?= base_url('assets/flags/fr.png') ?>" onclick="selectLang('fr','fr')" title="Français">
+                            <img src="<?= base_url('assets/flags/es.png') ?>" onclick="selectLang('es','es')" title="Español">
+                            <img src="<?= base_url('assets/flags/it.png') ?>" onclick="selectLang('it','it')" title="Italiano">
+                        </div>
+                    </div>
+                    <!-- GOOGLE TRANSLATE -->
+                    <div id="google_translate_element" style="display:none;"></div>
+                </div>
+                <!-- === BİTİŞ: Dil Seçimi === -->
+                <!-- Menü Butonu -->
+                <button class="btn btn-dark ms-2"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#sideMenu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </nav>
 
-        <!-- === BİTİŞ: Dil Seçimi === -->
-    </nav>
 
-    <div class="hero">
-        <h1><?= $settings['companyName'] ?></h1>
-        <p>Menümüzden seçiminizi yapın</p>
+              <!-- ✅ BURASI BODY ALTINA GELECEK -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sideMenu">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Menü</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+
+        <div class="offcanvas-body d-flex flex-column gap-3">
+
+            <?php if (!empty($settings['wifi'])): ?>
+                <button class="btn btn-outline-primary w-100 text-start"
+                    data-bs-toggle="modal" data-bs-target="#wifiModal">
+                    <i class="fa-solid fa-wifi me-2"></i> Wifi
+                </button>
+            <?php endif; ?>
+
+            <?php if (!empty($settings['hakkimizda'])): ?>
+                <button class="btn btn-outline-secondary w-100 text-start"
+                    data-bs-toggle="modal" data-bs-target="#aboutModal">
+                    <i class="fa-solid fa-circle-info me-2"></i> Hakkımızda
+                </button>
+            <?php endif; ?>
+
+            <?php if (!empty($settings['instagramUrl']) || !empty($settings['facebookUrl']) || !empty($settings['twitterUrl'])): ?>
+                <button class="btn w-100 text-start"
+                    data-bs-toggle="modal" data-bs-target="#socialModal"
+                    style="border:2px solid #E1306C; color:#E1306C; font-weight:600;">
+                    <i class="fa-brands fa-instagram me-2"></i> Sosyal Medya
+                </button>
+            <?php endif; ?>
+
+            <?php if (!empty($settings['googleyorum'])): ?>
+                <button class="btn w-100 text-start"
+                    data-bs-toggle="modal" data-bs-target="#googleReviewModal"
+                    style="background: linear-gradient(135deg,#4285F4,#EA4335,#FBBC05,#34A853);
+                       color:white; font-weight:600; border:none; border-radius:12px;">
+                    <i class="fa-brands fa-google me-2"></i> Bizi Değerlendir
+                </button>
+            <?php endif; ?>
+
+        </div>
     </div>
 
-    <div class="filters-wrapper">
-        <ul class="m-0 p-0" style="list-style:none;">
-            <li style="display:inline;"><a class="active" data-filter="*">Tüm Ürünler</a></li>
-            <?php foreach ($category as $item) { ?>
-                <li style="display:inline;"><a data-filter=".cat-<?= $item['id'] ?>"><?= $item['name'] ?></a></li>
-            <?php } ?>
-        </ul>
-    </div>
 
-    <div class="menu-list">
-        <?php foreach ($products as $item) { ?>
-            <div class="menu-item all cat-<?= $item['categories_id'] ?> openModal"
-                data-bs-toggle="modal" data-bs-target="#productModal"
-                data-name="<?= $item['name']; ?>" data-price="<?= $item['price']; ?>"
-                data-info="<?= $item['info']; ?>" data-img="<?= base_url('img/product/' . session()->get('firma')->firma_id . '/' . $item['img']); ?>">
-                <?php if ($status[0]['resim'] == 1): ?>
-                    <img src="<?= base_url('img/product/' . session()->get('firma')->firma_id . '/' . $item['img']); ?>" alt="">
-                <?php endif; ?>
-                <div class="menu-info">
-                    <h6><?= $item['name']; ?></h6>
-                    <?php if ($status[0]['aciklama'] == 1): ?><small><?= $item['info']; ?></small><?php endif; ?>
-                    <?php if ($status[0]['fiyat'] == 1): ?><span class="price">₺<?= $item['price']; ?></span><?php endif; ?>
+
+            <div class="container-xxl py-5">
+                <div class="container">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h5 class="section-title ff-secondary text-center text-primary fw-normal"><?= $settings['companyName'] ?></h5>
+                        <h1 class="mb-5">Menümüz</h1>
+                    </div>
+
+                    <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="filters-wrapper">
+                            <ul class="nav nav-pills d-inline-flex justify-content-start border-bottom mb-5 filters_menu">
+                                <li class="nav-item">
+                                    <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-filter="*">
+                                        <div class="ps-3">
+                                            <h6 class="mt-n1 mb-0">Tüm Ürünler</h6>
+                                        </div>
+                                    </a>
+                                </li>
+                                <?php foreach ($category as $item) { ?>
+                                    <li class="nav-item">
+                                        <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3" data-filter=".cat-<?php echo $item['id']; ?>">
+                                            <div class="ps-3">
+                                                <h6 class="mt-n1 mb-0"><?php echo $item['name']; ?></h6>
+                                            </div>
+                                        </a>
+                                    </li>
+                                <?php } ?>
+                            </ul>
+                        </div>
+
+
+                        <div class="tab-content">
+                            <div id="tab-1" class="tab-pane fade show p-0 active">
+                                <div class="row g-4 grid">
+                                    <?php foreach ($products as $item) { ?>
+                                        <div class="col-lg-6 all cat-<?php echo $item['categories_id']; ?>">
+                                            <div class="d-flex align-items-center">
+                                                <?php if ($status[0]['resim'] == 1) : ?>
+                                                    <img class="flex-shrink-0 img-fluid rounded product-modal-trigger" src="<?= base_url('img/product/' . session()->get('firma')->firma_id . '/' . $item['img']); ?>" alt="" style="width: 80px; cursor: pointer;" data-bs-toggle="modal" data-bs-target="#productModal" data-image-url="<?= base_url('img/product/' . session()->get('firma')->firma_id . '/' . $item['img']); ?>" data-product-name="<?php echo htmlspecialchars($item['name']); ?>" data-product-info="<?php echo htmlspecialchars($item['info']); ?>" data-product-price="₺<?php echo htmlspecialchars($item['price']); ?>">
+                                                <?php endif; ?>
+
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <h5 class="d-flex justify-content-between border-bottom pb-2 product-modal-trigger" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#productModal" data-image-url="<?= base_url('img/product/' . session()->get('firma')->firma_id . '/' . $item['img']); ?>" data-product-name="<?php echo htmlspecialchars($item['name']); ?>" data-product-info="<?php echo htmlspecialchars($item['info']); ?>" data-product-price="₺<?php echo htmlspecialchars($item['price']); ?>">
+                                                        <span><?php echo $item['name']; ?></span>
+                                                        <?php if ($status[0]['fiyat'] == 1) : ?>
+                                                            <span class="text-primary">₺<?php echo $item['price']; ?></span>
+                                                        <?php endif; ?>
+                                                    </h5>
+                                                    <?php if ($status[0]['aciklama'] == 1) : ?>
+                                                        <small class="fst-italic"><?php echo $item['info']; ?></small>
+                                                    <?php endif; ?>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <?php } ?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        <?php } ?>
-    </div>
+            <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+                <div class="container py-5">
+                    <div class="row g-5">
+                        <div class="col-lg-3 col-md-6">
+                            <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">İletişim Bilgileri</h4>
 
-    <div class="footer">
-        <?php if (!empty($settings['location'])): ?><p><i class="fa fa-map-marker-alt"></i> <?= $settings['location'] ?></p><?php endif; ?>
-        <?php if (!empty($settings['phone'])): ?><p><i class="fa fa-phone-alt"></i> <?= $settings['phone'] ?></p><?php endif; ?>
-        <?php if (!empty($settings['mail'])): ?><p><i class="fa fa-envelope"></i> <?= $settings['mail'] ?></p><?php endif; ?>
-        <div class="mt-3">
-            <?php if (!empty($settings['instagramUrl'])): ?><a href="<?= $settings['instagramUrl'] ?>" target="_blank"><i class="fab fa-instagram"></i></a><?php endif; ?>
-            <?php if (!empty($settings['twitterUrl'])): ?><a href="<?= $settings['twitterUrl'] ?>" target="_blank"><i class="fab fa-twitter"></i></a><?php endif; ?>
-            <?php if (!empty($settings['facebookUrl'])): ?><a href="<?= $settings['facebookUrl'] ?>" target="_blank"><i class="fab fa-facebook"></i></a><?php endif; ?>
+                            <?php if (!empty($settings['location'])) : ?>
+                                <p class="mb-2">
+                                    <i class="fa fa-map-marker-alt me-3"></i>
+                                    <?php if (!empty($settings['location_url'])) : ?>
+                                        <a href="<?= $settings['location_url'] ?>" target="_blank" class="text-white text-decoration-none">
+                                            <?= $settings['location'] ?>
+                                        </a>
+                                    <?php else: ?>
+                                        <?= $settings['location'] ?>
+                                    <?php endif; ?>
+                                </p>
+                            <?php endif; ?>
+
+
+
+                            <?php if (!empty($settings['phone'])) : ?>
+                                <a href="tel:<?= $settings['phone'] ?>">
+                                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i><?= $settings['phone'] ?></p>
+                                </a>
+                            <?php endif; ?>
+                            <?php if (!empty($settings['mail'])) : ?>
+                                <a href="mailto:<?= $settings['mail'] ?>">
+                                    <p class="mb-2"><i class="fa fa-envelope me-3"></i><?= $settings['mail'] ?></p>
+                                </a>
+                            <?php endif; ?>
+
+                            <div class="d-flex pt-2">
+                                <?php if (!empty($settings['instagramUrl'])) : ?>
+                                    <a href="<?= $settings['instagramUrl'] ?>" class="btn btn-outline-light btn-social" target="_blank">
+                                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                <?php endif; ?>
+
+                                <?php if (!empty($settings['twitterUrl'])) : ?>
+                                    <a href="<?= $settings['twitterUrl'] ?>" class="btn btn-outline-light btn-social" target="_blank">
+                                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                <?php endif; ?>
+
+                                <?php if (!empty($settings['facebookUrl'])) : ?>
+                                    <a href="<?= $settings['facebookUrl'] ?>" class="btn btn-outline-light btn-social" target="_blank">
+                                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                <?php endif; ?>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Çalışma Saatleri</h4>
+                            <h5 class="text-light fw-normal">Hafta İçi</h5>
+                            <p> <?= $settings['haftaIci'] ?></p>
+                            <h5 class="text-light fw-normal">Hafta Sonu</h5>
+                            <p> <?= $settings['haftaSonu'] ?></p>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Hakkımızda</h4>
+                            <p> <?= $settings['hakkimizda'] ?></p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                                <a href="">
+                                    &copy; <span id="displayYear"></span> Distributed By SolutionSoftware</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
         </div>
-    </div>
 
-    <!-- Modal -->
-    <div class="modal fade" id="productModal" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content p-3 text-center position-relative" style="padding-top:50px;">
+        <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen-md-down">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="productModalLabel"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <?php if ($status[0]['resim'] == 1) : ?>
+                            <img id="modalProductImage" src="" class="img-fluid mb-3" alt="Ürün Resmi">
+                        <?php endif; ?>
 
-                <!-- Kapatma butonu: artık resmin üstüne binmiyor -->
-                <button type="button" class="btn-close position-absolute"
-                    style="top:10px; right:10px; z-index:1055;"
-                    data-bs-dismiss="modal" aria-label="Close"></button>
+                        <?php if ($status[0]['aciklama'] == 1) : ?>
+                            <p id="modalProductInfo" class="text-muted"></p>
+                        <?php endif; ?>
 
-                <?php if ($status[0]['resim'] == 1): ?>
-                    <img id="modalImg" class="img-fluid mb-3" style="border-radius:15px; margin-top:30px;">
-                <?php endif; ?>
-
-                <h5 id="modalName"></h5>
-
-                <?php if ($status[0]['fiyat'] == 1): ?>
-                    <p id="modalPrice" class="fw-bold"></p>
-                <?php endif; ?>
-
-                <?php if ($status[0]['aciklama'] == 1): ?>
-                    <p id="modalInfo" class="text-muted"></p>
-                <?php endif; ?>
-
+                        <?php if ($status[0]['fiyat'] == 1) : ?>
+                            <span id="modalProductPrice" class="text-primary fw-bold fs-4"></span>
+                        <?php endif; ?>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            // Filtreleme: animasyon kaldırıldı
-            $('.filters-wrapper a').click(function(e) {
-                e.preventDefault();
-                $('.filters-wrapper a').removeClass('active');
-                $(this).addClass('active');
-                var filter = $(this).data('filter');
-                if (filter == '*') {
-                    $('.all').css('display', 'flex');
-                } else {
-                    $('.all').hide();
-                    $(filter).css('display', 'flex');
+
+        <div class="">
+            <!-- Google Yorum Modal -->
+            <div class="modal fade" id="googleReviewModal" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content" style="border-radius:20px; padding:20px;">
+                        <div class="modal-header border-0 pb-0">
+                            <h5 class="modal-title">Bizi Google'da Değerlendir</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <p>Yorumunuzu Google üzerinde bırakabilirsiniz.</p>
+                            <a href="<?= $settings['googleyorum'] ?>" target="_blank" class="btn"
+                                style="background:#4285F4; color:white; border-radius:10px; padding:10px 20px; font-weight:600;">
+                                Google Yorum Yap
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Wifi Modal -->
+            <div class="modal fade" id="wifiModal" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content" style="border-radius:20px; padding:15px;">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Wifi Bilgileri</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div style="margin-bottom:10px;">
+                                <label>Wifi Adı</label>
+                                <div style="display:flex; gap:5px;">
+                                    <input type="text" id="wifiName" class="form-control" value="<?= $settings['wifi'] ?>" readonly>
+                                    <i class="fa-solid fa-copy" style="cursor:pointer; align-self:center; color:#555;" onclick="copyText('wifiName')"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <label>Şifre</label>
+                                <div style="display:flex; gap:5px;">
+                                    <input type="text" id="wifiPass" class="form-control" value="<?= $settings['wifipass'] ?>" readonly>
+                                    <i class="fa-solid fa-copy" style="cursor:pointer; align-self:center; color:#555;" onclick="copyText('wifiPass')"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hakkımızda Modal -->
+            <div class="modal fade" id="aboutModal" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content" style="border-radius:20px; padding:15px;">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Hakkımızda</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <?= $settings['hakkimizda'] ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sosyal Medya Modal -->
+            <div class="modal fade" id="socialModal" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content" style="border-radius:20px; padding:20px;">
+                        <div class="modal-header border-0 pb-0">
+                            <h5 class="modal-title">Sosyal Medya</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body d-flex flex-wrap justify-content-center gap-3 pt-2">
+
+                            <?php if (!empty($settings['instagramUrl'])): ?>
+                                <a href="<?= $settings['instagramUrl'] ?>" target="_blank"
+                                    style="text-decoration:none; display:flex; flex-direction:column; align-items:center; justify-content:center;
+                              width:80px; height:80px; border-radius:15px; background:#E1306C; color:white; font-weight:600;">
+                                    <i class="fa-brands fa-instagram" style="font-size:28px;"></i>
+                                    <span style="font-size:12px; margin-top:4px;">Instagram</span>
+                                </a>
+                            <?php endif; ?>
+
+                            <?php if (!empty($settings['facebookUrl'])): ?>
+                                <a href="<?= $settings['facebookUrl'] ?>" target="_blank"
+                                    style="text-decoration:none; display:flex; flex-direction:column; align-items:center; justify-content:center;
+                              width:80px; height:80px; border-radius:15px; background:#1877F2; color:white; font-weight:600;">
+                                    <i class="fa-brands fa-facebook" style="font-size:28px;"></i>
+                                    <span style="font-size:12px; margin-top:4px;">Facebook</span>
+                                </a>
+                            <?php endif; ?>
+
+                            <?php if (!empty($settings['twitterUrl'])): ?>
+                                <a href="<?= $settings['twitterUrl'] ?>" target="_blank"
+                                    style="text-decoration:none; display:flex; flex-direction:column; align-items:center; justify-content:center;
+                              width:80px; height:80px; border-radius:15px; background:#1DA1F2; color:white; font-weight:600;">
+                                    <i class="fa-brands fa-twitter" style="font-size:28px;"></i>
+                                    <span style="font-size:12px; margin-top:4px;">Twitter</span>
+                                </a>
+                            <?php endif; ?>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="<?= base_url('assets/frontend/menu2'); ?>/lib/wow/wow.min.js"></script>
+        <script src="<?= base_url('assets/frontend/menu2'); ?>/lib/easing/easing.min.js"></script>
+        <script src="<?= base_url('assets/frontend/menu2'); ?>/lib/waypoints/waypoints.min.js"></script>
+        <script src="<?= base_url('assets/frontend/menu2'); ?>/lib/counterup/counterup.min.js"></script>
+        <script src="<?= base_url('assets/frontend/menu2'); ?>/lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="<?= base_url('assets/frontend/menu2'); ?>/lib/tempusdominus/js/moment.min.js"></script>
+        <script src="<?= base_url('assets/frontend/menu2'); ?>/lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="<?= base_url('assets/frontend/menu2'); ?>/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+        <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                // Isotope başlat
+                var $grid = $('.grid').isotope({
+                    itemSelector: '.all',
+                    layoutMode: 'fitRows'
+                });
+
+                // Filtreleme
+                $('.filters_menu li a').click(function(e) {
+                    e.preventDefault();
+                    $('.filters_menu li a').removeClass('active');
+                    $(this).addClass('active');
+                    var filterValue = $(this).attr('data-filter');
+                    $grid.isotope({
+                        filter: filterValue
+                    });
+                });
+
+                // Modalın içeriğini dinamik olarak doldurma
+                $('#productModal').on('show.bs.modal', function(event) {
+                    var button = $(event.relatedTarget);
+                    var imageUrl = button.data('image-url');
+                    var productName = button.data('product-name');
+                    var productInfo = button.data('product-info');
+                    var productPrice = button.data('product-price');
+
+                    var modal = $(this);
+                    modal.find('.modal-title').text(productName);
+                    modal.find('#modalProductImage').attr('src', imageUrl);
+                    modal.find('#modalProductInfo').text(productInfo);
+                    modal.find('#modalProductPrice').text(productPrice);
+                });
+            });
+        </script>
+
+
+        <!-- === BAŞLANGIÇ: Dil Seçimi === -->
+        <script>
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({
+                    pageLanguage: 'tr',
+                    includedLanguages: 'en,de,ru,ar,fr,es,it,tr',
+                    autoDisplay: false
+                }, 'google_translate_element');
+            }
+
+            function toggleLangMenu() {
+                var menu = document.getElementById("langMenu");
+                menu.style.display = menu.style.display === "block" ? "none" : "block";
+            }
+
+            function selectLang(lang, flag) {
+                // HTML'deki data-base attribute ile base URL alıyoruz
+                var img = document.getElementById("selectedFlag");
+                var base = img.dataset.base;
+
+                if (!base.endsWith('/')) base += '/'; // eksikse / ekle
+                img.src = base + flag + ".png";
+
+                localStorage.setItem("selectedLang", lang);
+                localStorage.setItem("selectedFlag", flag);
+
+                var interval = setInterval(function() {
+                    var select = document.querySelector(".goog-te-combo");
+                    if (select) {
+                        select.value = lang;
+                        select.dispatchEvent(new Event('change'));
+                        clearInterval(interval);
+                    }
+                }, 300);
+
+                document.getElementById("langMenu").style.display = "none";
+            }
+
+            document.addEventListener("DOMContentLoaded", function() {
+                var img = document.getElementById("selectedFlag");
+                var base = img.dataset.base;
+
+                var savedLang = localStorage.getItem("selectedLang");
+                var savedFlag = localStorage.getItem("selectedFlag");
+
+                if (savedFlag) {
+                    img.src = base + savedFlag + ".png";
+                }
+                if (savedLang) {
+                    selectLang(savedLang, savedFlag);
                 }
             });
-
-            // Modal açma
-            $('.openModal').click(function() {
-                $('#modalName').text($(this).data('name'));
-                <?php if ($status[0]['fiyat'] == 1): ?>$('#modalPrice').text('₺' + $(this).data('price'));
-            <?php endif; ?>
-            <?php if ($status[0]['aciklama'] == 1): ?>$('#modalInfo').text($(this).data('info'));
-            <?php endif; ?>
-            <?php if ($status[0]['resim'] == 1): ?>$('#modalImg').attr('src', $(this).data('img'));
-            <?php endif; ?>
-            });
-        });
-    </script>
-
-    <!-- === BAŞLANGIÇ: Dil Seçimi === -->
-    <script>
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({
-                pageLanguage: 'tr',
-                includedLanguages: 'en,de,ru,ar,fr,es,it,tr',
-                autoDisplay: false
-            }, 'google_translate_element');
-        }
-
-        function toggleLangMenu() {
-            var menu = document.getElementById("langMenu");
-            menu.style.display = menu.style.display === "block" ? "none" : "block";
-        }
-
-        function selectLang(lang, flag) {
-            // HTML'deki data-base attribute ile base URL alıyoruz
-            var img = document.getElementById("selectedFlag");
-            var base = img.dataset.base;
-
-            if (!base.endsWith('/')) base += '/'; // eksikse / ekle
-            img.src = base + flag + ".png";
-
-            localStorage.setItem("selectedLang", lang);
-            localStorage.setItem("selectedFlag", flag);
-
-            var interval = setInterval(function() {
-                var select = document.querySelector(".goog-te-combo");
-                if (select) {
-                    select.value = lang;
-                    select.dispatchEvent(new Event('change'));
-                    clearInterval(interval);
-                }
-            }, 300);
-
-            document.getElementById("langMenu").style.display = "none";
-        }
-
-        document.addEventListener("DOMContentLoaded", function() {
-            var img = document.getElementById("selectedFlag");
-            var base = img.dataset.base;
-
-            var savedLang = localStorage.getItem("selectedLang");
-            var savedFlag = localStorage.getItem("selectedFlag");
-
-            if (savedFlag) {
-                img.src = base + savedFlag + ".png";
+        </script>
+        <script>
+            function copyText(id) {
+                var copyText = document.getElementById(id);
+                copyText.select();
+                copyText.setSelectionRange(0, 99999);
+                document.execCommand("copy");
+                alert("Kopyalandı: " + copyText.value);
             }
-            if (savedLang) {
-                selectLang(savedLang, savedFlag);
-            }
-        });
-    </script>
-
-    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    <!-- === BİTİŞ: Dil Seçimi === -->
+        </script>
+        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <!-- === BİTİŞ: Dil Seçimi === -->
 
 
+
+
+        <script src="<?= base_url('assets/frontend/menu2'); ?>/js/main.js"></script>
 </body>
 
 </html>

@@ -178,24 +178,28 @@
 
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8 slider-wrapper">
+            <div class="col-lg-8 slider-wrapper" id="demoSection">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-demo="<?= str_replace('://', '://demo1.', base_url('')) ?>">
-                            <h4>Modern Menü Şablonu 1</h4>
+                            <h4>Menü Şablonu 1</h4>
                             <img src="<?= base_url('assets/satis'); ?>/menu1.png" alt="Menu 1">
                         </div>
                         <div class="carousel-item" data-demo="<?= str_replace('://', '://demo2.', base_url('')) ?>">
-                            <h4>Şık Menü Şablonu 2</h4>
+                            <h4>Menü Şablonu 2</h4>
                             <img src="<?= base_url('assets/satis'); ?>/menu2.png" alt="Menu 2">
                         </div>
                         <div class="carousel-item" data-demo="<?= str_replace('://', '://demo3.', base_url('')) ?>">
-                            <h4>Zarif Menü Şablonu 3</h4>
+                            <h4>Menü Şablonu 3</h4>
                             <img src="<?= base_url('assets/satis'); ?>/menu3.png" alt="Menu 3">
                         </div>
                         <div class="carousel-item" data-demo="<?= str_replace('://', '://demo4.', base_url('')) ?>">
-                            <h4>Premium Menü Şablonu 4</h4>
+                            <h4>Menü Şablonu 4</h4>
                             <img src="<?= base_url('assets/satis'); ?>/menu4.png" alt="Menu 4">
+                        </div>
+                        <div class="carousel-item" data-demo="<?= str_replace('://', '://demo5.', base_url('')) ?>">
+                            <h4>Menü Şablonu 5</h4>
+                            <img src="<?= base_url('assets/satis'); ?>/menu5.png" alt="Menu 5">
                         </div>
                     </div>
 
@@ -211,8 +215,8 @@
                     <a id="liveDemoBtn" href="<?= base_url('menu1') ?>" target="_blank" class="btn-demo">
                         <i class="bi bi-eye"></i> Canlı Demo
                     </a>
-                    <a href="https://wa.me/90XXXXXXXXXX" class="btn-whatsapp" target="_blank">
-                        <i class="bi bi-whatsapp"></i> Hemen Satın Al
+                    <a href="https://wa.me/905333028998" class="btn-whatsapp" target="_blank">
+                        <i class="bi bi-whatsapp"></i> İletişime Geçin
                     </a>
                 </div>
             </div>
@@ -223,6 +227,15 @@
 
 
         <div class="row mt-5 g-4 text-center">
+            <div class="col-md-3">
+                <div class="feature-card">
+                    <i class="bi bi-translate"></i>
+                    <h6 class="fw-bold">Çoklu Dil Desteği</h6>
+                    <p class="small text-muted mb-0">
+                        Menü ve içeriklerinizi birden fazla dilde sunarak daha geniş kitlelere ulaşın.
+                    </p>
+                </div>
+            </div>
             <div class="col-md-3">
                 <div class="feature-card">
                     <i class="bi bi-lightning-charge-fill"></i>
@@ -254,6 +267,82 @@
         </div>
     </div>
 
+
+    <!-- 🚀 SATIŞ KAPAMA ALANI -->
+    <div class="container mt-5 mb-5">
+        <div class="p-4 p-md-5 text-center"
+            style="
+        background: linear-gradient(135deg,#6a11cb,#2575fc);
+        border-radius:25px;
+        color:white;
+        box-shadow:0 15px 40px rgba(0,0,0,0.15);
+    ">
+
+            <h2 class="fw-bold mb-3">🚀 İşletmeni Bir Üst Seviyeye Taşı</h2>
+
+            <p class="mb-4" style="opacity:0.9; max-width:600px; margin:auto;">
+                QR Menü sadece bir menü değil,
+                <strong>daha fazla müşteri, daha fazla yorum ve daha fazla satış</strong> demektir.
+                Rakiplerinden bir adım öne geçmek için şimdi harekete geç!
+            </p>
+
+            <!-- ÖZELLİKLER -->
+            <div class="row text-start mt-4 mb-4">
+                <div class="col-md-6">
+                    <p>✅ Çoklu dil desteği</p>
+                    <p>✅ Google yorum artırma sistemi</p>
+                    <p>✅ Wifi şifresini tek tıkla paylaşma</p>
+                    <p>✅ Sınırsız ürün & kategori</p>
+                </div>
+                <div class="col-md-6">
+                    <p>✅ Ürünleri anlık aktif/pasif yapma</p>
+                    <p>✅ Mobil uyumlu hızlı sistem</p>
+                    <p>✅ Modern ve dikkat çekici tasarım</p>
+                </div>
+            </div>
+
+            <!-- CTA -->
+            <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
+
+                <a id="liveDemoBtnBottom"
+                    href="<?= base_url('menu1') ?>"
+                    target="_blank"
+                    class="btn"
+                    style="
+                background:white;
+                color:#2575fc;
+                font-weight:600;
+                border-radius:50px;
+                padding:12px 25px;
+            ">
+                    <i class="bi bi-eye"></i> Canlı Demo İncele
+                </a>
+
+                <a href="https://wa.me/905333028998"
+                    target="_blank"
+                    class="btn"
+                    style="
+                background:#25d366;
+                color:white;
+                font-weight:600;
+                border-radius:50px;
+                padding:12px 25px;
+            ">
+                    <i class="bi bi-whatsapp"></i> Hemen Satın Al / İletişim
+                </a>
+
+            </div>
+
+            <!-- ALT MESAJ -->
+            <p class="mt-4 mb-0" style="font-size:0.9rem; opacity:0.8;">
+                ⚡ Kurulum dakikalar içinde hazır • Ekstra teknik bilgi gerekmez
+            </p>
+
+        </div>
+    </div>
+
+
+
     <footer>
         &copy; <?= date("Y"); ?> Dijital QR Menü Yazılımı. Tüm Hakları Saklıdır.
     </footer>
@@ -268,6 +357,20 @@
             liveDemoBtn.href = currentSlide.getAttribute('data-demo');
         });
     </script>
+    <script>
+        document.getElementById("liveDemoBtnBottom").addEventListener("click", function(e) {
+            e.preventDefault();
+
+            const target = document.getElementById("demoSection");
+
+            target.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+        });
+    </script>
+
+
 </body>
 
 </html>

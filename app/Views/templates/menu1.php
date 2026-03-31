@@ -2,154 +2,255 @@
 <html lang="tr">
 
 <head>
-    <meta charset="utf-8">
     <link rel="shortcut icon" href="<?php if (isset($settings['favIcon_url'])) {
                                         echo base_url('img/settings/' . $settings['favIcon_url']);
-                                    }  ?>" type="">
+                                    } ?>" type="">
+    <meta charset="utf-8">
     <title><?= $settings['companyName'] ?></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
-
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
     <style>
+        :root {
+            --app-primary: #121212;
+            --app-accent: #E67E22;
+            /* İştah açıcı turuncu/bronz tonu */
+            --app-bg: #FDFDFD;
+            --app-card: #FFFFFF;
+            --app-text: #1A1A1A;
+            --app-muted: #8E8E93;
+        }
+
         body {
-            font-family: 'Heebo', sans-serif;
-            background: #fafafa;
+            font-family: 'Inter', sans-serif;
+            background: var(--app-bg);
             margin: 0;
-            overflow-y: scroll;
-            /* Kaydırma çubuğunu sabitler */
-            overflow-x: hidden;
-            /* Yatay kaymayı engeller */
+            padding-bottom: 80px;
+            /* Alt bar için boşluk */
+            color: var(--app-text);
+            -webkit-tap-highlight-color: transparent;
         }
 
-        .hero {
-            background: linear-gradient(135deg, #0d6efd, #6610f2);
-            color: #fff;
-            padding: 80px 20px;
-            text-align: center;
+        /* App Header */
+        .app-header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            padding: 12px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
         }
 
-        .hero h1 {
-            font-size: 2.5rem;
-            font-weight: 800;
+        .app-header h1 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin: 0;
+            letter-spacing: -0.5px;
         }
 
-        .hero p {
-            opacity: 0.9;
-        }
 
-        .filters-wrapper {
+        /* Horizontal Categories (Chips) */
+        .categories-scroller {
+            padding: 15px 0;
             overflow-x: auto;
-            -webkit-overflow-scrolling: touch;
             white-space: nowrap;
-            background: #fff;
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
+            scrollbar-width: none;
+            background: var(--app-bg);
         }
 
-        .filters-wrapper::-webkit-scrollbar {
+        .categories-scroller::-webkit-scrollbar {
             display: none;
         }
 
-        .filters_menu a {
+        .category-chip {
             display: inline-block;
-            margin: 0 6px;
             padding: 8px 18px;
-            border-radius: 25px;
-            background: #f1f1f1;
-            font-size: .9rem;
-            color: #333;
-            text-decoration: none;
-            transition: .3s;
-        }
-
-        .filters_menu a.active,
-        .filters_menu a:hover {
-            background: #0d6efd;
-            color: #fff;
-        }
-
-        .menu-list {
-            padding: 30px 15px;
-        }
-
-        .menu-item {
-            display: flex;
-            align-items: flex-start;
-            background: #fff;
-            border-radius: 12px;
-            padding: 15px;
-            margin-bottom: 15px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-        }
-
-        .menu-item img {
-            width: 70px;
-            height: 70px;
-            object-fit: cover;
-            border-radius: 50%;
-            cursor: pointer;
-        }
-
-        .menu-info {
-            flex: 1;
-            margin-left: 15px;
-        }
-
-        .menu-info h6 {
-            margin: 0;
+            margin: 0 5px;
+            border-radius: 20px;
+            background: #F2F2F7;
+            color: var(--app-muted);
+            font-size: 0.85rem;
             font-weight: 600;
+            text-decoration: none !important;
+            transition: 0.2s;
+            border: 1px solid transparent;
         }
 
-        .menu-info small {
-            color: #666;
-        }
-
-        .price {
-            font-weight: bold;
-            color: #0d6efd;
-        }
-
-        .footer {
-            background: linear-gradient(135deg, #0d6efd, #6610f2);
+        .category-chip.active {
+            background: var(--app-primary);
             color: #fff;
+        }
+
+        /* App Grid */
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            padding: 0 15px;
+        }
+
+        .app-card {
+            background: var(--app-card);
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+            transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            border: 1px solid #F2F2F7;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .app-card:active {
+            transform: scale(0.96);
+        }
+
+        .card-img-wrapper {
+            position: relative;
+            padding-top: 100%;
+            /* 1:1 Aspect Ratio */
+        }
+
+        .card-img-wrapper img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .card-body {
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+
+        .card-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+            color: var(--app-text);
+
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            min-height: 38px;
+        }
+
+        .card-info {
+            font-size: 0.75rem;
+            color: var(--app-muted);
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            margin-bottom: 8px;
+        }
+
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: auto;
+        }
+
+        .card-price {
+            font-weight: 700;
+            color: var(--app-accent);
+            font-size: 0.9rem;
+        }
+
+        /* Bottom Tab Bar */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 70px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-top: 1px solid rgba(0, 0, 0, 0.05);
+            z-index: 1000;
+        }
+
+        .nav-item {
             text-align: center;
-            padding: 30px 20px;
-            margin-top: 40px;
+            color: var(--app-muted);
+            text-decoration: none !important;
+            font-size: 0.7rem;
+            font-weight: 500;
         }
 
-        .footer a {
+        .nav-item div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .nav-item i {
+            font-size: 1.4rem;
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        .nav-item.active {
+            color: var(--app-primary);
+        }
+
+        /* Modal Styling */
+        .modal-content {
+            border-radius: 25px;
+            border: none;
+            overflow: hidden;
+        }
+
+        .modal-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .view-btn {
+            width: 24px;
+            height: 24px;
+            background: var(--app-primary);
+            /* siyah */
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             color: #fff;
-            margin: 0 8px;
-            font-size: 1.2rem;
+            /* ikon beyaz */
+            font-size: 14px;
+            transition: 0.2s;
         }
 
-        .bg-custom-light {
-            background-color: rgba(255, 255, 255, 0.9) !important;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        .view-btn:active {
+            transform: scale(0.9);
+            background: var(--app-primary);
+            color: #fff;
         }
 
-        .bg-custom-light a,
-        .bg-custom-light span {
-            color: #333 !important;
-            text-decoration: none;
-        }
-
-        .bg-custom-light a:hover {
-            text-decoration: underline;
-        }
-
-        /* MOBİL CİHAZ MODAL AÇILMA HATASI DÜZELTME */
-        @media (max-width: 767.98px) {
-            .modal-open {
-                position: static !important;
-                overflow-y: scroll !important;
+        @media (min-width: 768px) {
+            .menu-grid {
+                grid-template-columns: repeat(3, 1fr);
+                max-width: 900px;
+                margin: 0 auto;
             }
         }
 
@@ -201,16 +302,12 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-custom-light px-3 py-2 sticky-top">
-        <a href="" class="navbar-brand p-0">
-            <img style="max-width:70px; height:auto;" src="<?php if (isset($settings['logo_url'])) {
-                                                                echo base_url('img/settings/' . $settings['logo_url']);
-                                                            } ?>" alt="logo_resim">
-        </a>
-
+    <header class="app-header">
+        <img src="<?= isset($settings['logo_url']) ? base_url('img/settings/' . $settings['logo_url']) : '' ?>" alt="logo" style="height: 35px; border-radius: 8px;">
+        <h1><?= $settings['companyName'] ?></h1>
 
         <!-- === BAŞLANGIÇ: Dil Seçimi === -->
-        <div class="lang-dropdown me-3">
+        <div class="lang-dropdown me-1">
             <div class="selected-lang" onclick="toggleLangMenu()">
                 <img id="selectedFlag"
                     src="<?= base_url('assets/flags/tr.png') ?>"
@@ -232,89 +329,180 @@
         <div id="google_translate_element" style="display:none;"></div>
 
         <!-- === BİTİŞ: Dil Seçimi === -->
+    </header>
 
-    </nav>
-
-    <div class="hero">
-        <h1><?= $settings['companyName'] ?></h1>
-        <p>Menümüze göz atın</p>
+    <div class="categories-scroller px-2">
+        <a class="category-chip active" data-filter="*">Tümü</a>
+        <?php foreach ($category as $item) { ?>
+            <a class="category-chip" data-filter=".cat-<?= $item['id'] ?>"><?= $item['name'] ?></a>
+        <?php } ?>
     </div>
 
-    <div class="filters-wrapper">
-        <ul class="filters_menu m-0 p-0" style="list-style:none;">
-            <li style="display:inline;"><a class="active" data-filter="*">Tüm Ürünler</a></li>
-            <?php foreach ($category as $item) { ?>
-                <li style="display:inline;"><a data-filter=".cat-<?php echo $item['id']; ?>"><?php echo $item['name']; ?></a></li>
-            <?php } ?>
-        </ul>
-    </div>
-
-    <div class="menu-list grid row gx-3 gy-3">
+    <div class="menu-grid">
         <?php foreach ($products as $item) { ?>
-            <div class="col-12 col-md-6 all cat-<?php echo $item['categories_id']; ?>">
-                <div class="menu-item d-flex align-items-start openModal"
-                    data-bs-toggle="modal"
-                    data-bs-target="#productModal"
-                    data-name="<?= $item['name']; ?>"
-                    data-price="<?= $item['price']; ?>"
-                    data-info="<?= $item['info']; ?>"
-                    data-img="<?= base_url('img/product/' . session()->get('firma')->firma_id . '/' . $item['img']); ?>">
+            <div class="app-card all cat-<?= $item['categories_id'] ?> openModal"
+                data-bs-toggle="modal" data-bs-target="#productModal"
+                data-name="<?= $item['name']; ?>" data-price="<?= $item['price']; ?>"
+                data-info="<?= $item['info']; ?>" data-img="<?= base_url('img/product/' . session()->get('firma')->firma_id . '/' . $item['img']); ?>">
 
+                <div class="card-img-wrapper">
                     <?php if ($status[0]['resim'] == 1): ?>
                         <img src="<?= base_url('img/product/' . session()->get('firma')->firma_id . '/' . $item['img']); ?>" alt="">
                     <?php endif; ?>
+                </div>
 
-                    <div class="menu-info">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <h6 style="cursor:pointer;"><?php echo $item['name']; ?></h6>
-
-                            <?php if ($status[0]['fiyat'] == 1): ?>
-                                <span class="price">₺<?php echo $item['price']; ?></span>
-                            <?php endif; ?>
-                        </div>
-
-                        <?php if ($status[0]['aciklama'] == 1): ?>
-                            <small><?php echo $item['info']; ?></small>
+                <div class="card-body">
+                    <div class="card-title"><?= $item['name']; ?></div>
+                    <?php if ($status[0]['aciklama'] == 1): ?>
+                        <div class="card-info"><?= $item['info']; ?></div>
+                    <?php endif; ?>
+                    <div class="card-footer">
+                        <?php if ($status[0]['fiyat'] == 1): ?>
+                            <span class="card-price">₺<?= $item['price']; ?></span>
                         <?php endif; ?>
+                        <div class="view-btn">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
                     </div>
                 </div>
             </div>
         <?php } ?>
     </div>
 
-    <div class="footer">
-        <?php if (!empty($settings['location'])): ?><p><i class="fa fa-map-marker-alt"></i> <?= $settings['location'] ?></p><?php endif; ?>
-        <?php if (!empty($settings['phone'])): ?><p><i class="fa fa-phone-alt"></i> <?= $settings['phone'] ?></p><?php endif; ?>
-        <?php if (!empty($settings['mail'])): ?><p><i class="fa fa-envelope"></i> <?= $settings['mail'] ?></p><?php endif; ?>
-        <div class="mt-3">
-            <?php if (!empty($settings['instagramUrl'])): ?><a href="<?= $settings['instagramUrl'] ?>" target="_blank"><i class="fab fa-instagram"></i></a><?php endif; ?>
-            <?php if (!empty($settings['twitterUrl'])): ?><a href="<?= $settings['twitterUrl'] ?>" target="_blank"><i class="fab fa-twitter"></i></a><?php endif; ?>
-            <?php if (!empty($settings['facebookUrl'])): ?><a href="<?= $settings['facebookUrl'] ?>" target="_blank"><i class="fab fa-facebook"></i></a><?php endif; ?>
+    <nav class="bottom-nav">
+        <?php if (!empty($settings['wifi'])): ?>
+            <a href="#wifiModal" class="nav-item" data-bs-toggle="modal">
+                <i class="fa-solid fa-wifi"></i>
+                Wifi
+            </a>
+        <?php endif; ?>
+
+        <?php if (!empty($settings['hakkimizda'])): ?>
+            <a href="#aboutModal" class="nav-item" data-bs-toggle="modal">
+                <i class="fa-solid fa-circle-info"></i>
+                Hakkımızda
+            </a>
+        <?php endif; ?>
+
+        <?php if (!empty($settings['instagramUrl']) || !empty($settings['facebookUrl']) || !empty($settings['twitterUrl'])): ?>
+            <a href="#socialModal" class="nav-item" data-bs-toggle="modal">
+                <i class="fa-brands fa-instagram"></i>
+                Sosyal Medya
+            </a>
+        <?php endif; ?>
+
+        <?php if (!empty($settings['googleyorum'])): ?>
+            <a href="#googleReviewModal" class="nav-item" data-bs-toggle="modal"
+                style="background: linear-gradient(135deg, #4285F4 0%, #EA4335 33%, #FBBC05 66%, #34A853 100%);
+                  color: white; border-radius: 12px; padding: 5px 10px;
+                  display: flex; flex-direction: column; align-items: center;
+                  justify-content: center; font-weight: 600; text-align: center; gap: 2px;">
+                <div style="display: flex; align-items: center; gap: 2px;">
+                    <i class="fa-brands fa-google" style="color:white;"></i>
+                    <i class="fa-solid fa-star" style="font-size:10px; color:white;"></i>
+                </div>
+                Bizi Değerlendir
+            </a>
+        <?php endif; ?>
+    </nav>
+
+    <!-- Google Yorum Modal -->
+    <div class="modal fade" id="googleReviewModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" style="border-radius:20px; padding:20px;">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title">Bizi Google'da Değerlendir</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p>Yorumunuzu Google üzerinde bırakabilirsiniz.</p>
+                    <a href="<?= $settings['googleyorum'] ?>" target="_blank" class="btn"
+                        style="background:#4285F4; color:white; border-radius:10px; padding:10px 20px; font-weight:600;">
+                        Google Yorum Yap
+                    </a>
+                </div>
+            </div>
         </div>
-        <p class="mt-3 mb-0">&copy; <?= date('Y') ?> Distributed By SolutionSoftware</p>
     </div>
 
-    <div class="modal fade" id="productModal" tabindex="-1">
+    <!-- Wifi Modal -->
+    <div class="modal fade" id="wifiModal" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-body text-center">
+            <div class="modal-content" style="border-radius:20px; padding:15px;">
+                <div class="modal-header">
+                    <h5 class="modal-title">Wifi Bilgileri</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div style="margin-bottom:10px;">
+                        <label>Wifi Adı</label>
+                        <div style="display:flex; gap:5px;">
+                            <input type="text" id="wifiName" class="form-control" value="<?= $settings['wifi'] ?>" readonly>
+                            <i class="fa-solid fa-copy" style="cursor:pointer; align-self:center; color:#555;" onclick="copyText('wifiName')"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <label>Şifre</label>
+                        <div style="display:flex; gap:5px;">
+                            <input type="text" id="wifiPass" class="form-control" value="<?= $settings['wifipass'] ?>" readonly>
+                            <i class="fa-solid fa-copy" style="cursor:pointer; align-self:center; color:#555;" onclick="copyText('wifiPass')"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                    <!-- RESİM -->
-                    <?php if ($status[0]['resim'] == 1): ?>
-                        <img id="modalImg" class="img-fluid mb-3" style="border-radius:10px;">
+    <!-- Hakkımızda Modal -->
+    <div class="modal fade" id="aboutModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" style="border-radius:20px; padding:15px;">
+                <div class="modal-header">
+                    <h5 class="modal-title">Hakkımızda</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <?= $settings['hakkimizda'] ?>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sosyal Medya Modal -->
+    <div class="modal fade" id="socialModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" style="border-radius:20px; padding:20px;">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title">Sosyal Medya</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body d-flex flex-wrap justify-content-center gap-3 pt-2">
+
+                    <?php if (!empty($settings['instagramUrl'])): ?>
+                        <a href="<?= $settings['instagramUrl'] ?>" target="_blank"
+                            style="text-decoration:none; display:flex; flex-direction:column; align-items:center; justify-content:center;
+                              width:80px; height:80px; border-radius:15px; background:#E1306C; color:white; font-weight:600;">
+                            <i class="fa-brands fa-instagram" style="font-size:28px;"></i>
+                            <span style="font-size:12px; margin-top:4px;">Instagram</span>
+                        </a>
                     <?php endif; ?>
 
-                    <!-- BAŞLIK -->
-                    <h5 id="modalName"></h5>
-
-                    <!-- FİYAT -->
-                    <?php if ($status[0]['fiyat'] == 1): ?>
-                        <p id="modalPrice" class="text-primary fw-bold"></p>
+                    <?php if (!empty($settings['facebookUrl'])): ?>
+                        <a href="<?= $settings['facebookUrl'] ?>" target="_blank"
+                            style="text-decoration:none; display:flex; flex-direction:column; align-items:center; justify-content:center;
+                              width:80px; height:80px; border-radius:15px; background:#1877F2; color:white; font-weight:600;">
+                            <i class="fa-brands fa-facebook" style="font-size:28px;"></i>
+                            <span style="font-size:12px; margin-top:4px;">Facebook</span>
+                        </a>
                     <?php endif; ?>
 
-                    <!-- AÇIKLAMA -->
-                    <?php if ($status[0]['aciklama'] == 1): ?>
-                        <p id="modalInfo" class="text-muted"></p>
+                    <?php if (!empty($settings['twitterUrl'])): ?>
+                        <a href="<?= $settings['twitterUrl'] ?>" target="_blank"
+                            style="text-decoration:none; display:flex; flex-direction:column; align-items:center; justify-content:center;
+                              width:80px; height:80px; border-radius:15px; background:#1DA1F2; color:white; font-weight:600;">
+                            <i class="fa-brands fa-twitter" style="font-size:28px;"></i>
+                            <span style="font-size:12px; margin-top:4px;">Twitter</span>
+                        </a>
                     <?php endif; ?>
 
                 </div>
@@ -322,68 +510,71 @@
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 
+
+    <div class="modal fade" id="productModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="position-relative">
+                    <button type="button" class="btn-close position-absolute"
+                        style="top:15px; right:15px; z-index:10; background-color: white; border-radius: 50%; opacity: 1; padding: 10px;"
+                        data-bs-dismiss="modal"></button>
+                    <?php if ($status[0]['resim'] == 1): ?>
+                        <img id="modalImg" src="" class="modal-img">
+                    <?php endif; ?>
+                </div>
+                <div class="p-4">
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h4 id="modalName" class="m-0" style="font-weight: 800;"></h4>
+                        <span id="modalPrice" style="color: var(--app-accent); font-weight: 800; font-size: 1.2rem;"></span>
+                    </div>
+                    <hr>
+                    <p id="modalInfo" class="text-muted" style="font-size: 0.9rem; line-height: 1.6;"></p>
+                    <button class="btn w-100 py-3 mt-2" data-bs-dismiss="modal"
+                        style="background: var(--app-primary); color: white; border-radius: 15px; font-weight: 700;">
+                        Kapat
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function copyText(id) {
+            var copyText = document.getElementById(id);
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            alert("Kopyalandı: " + copyText.value);
+        }
+    </script>
     <script>
         $(document).ready(function() {
-            // Filtreleme geçiş efekti
-            $('.filters_menu a').click(function(e) {
+            // Uygulama Tipi Filtreleme
+            $('.category-chip').click(function(e) {
                 e.preventDefault();
-
-                // Aktif sınıfı güncelle
-                $('.filters_menu a').removeClass('active');
+                $('.category-chip').removeClass('active');
                 $(this).addClass('active');
-
-                var filterValue = $(this).attr('data-filter');
-
-                // Eğer "Tüm Ürünler" ise, tüm ürünleri göster
-                if (filterValue === '*') {
-                    $('.all').stop(true, true).fadeIn(300);
-                    $('.all').css('display', 'flex');
+                var filter = $(this).data('filter');
+                if (filter == '*') {
+                    $('.all').show();
                 } else {
-                    // Sadece filtrelenmeyen ürünleri gizle
-                    $('.all').not(filterValue).stop(true, true).fadeOut(300);
-
-                    // Seçilen kategoriye ait ürünleri göster
-                    $(filterValue).stop(true, true).fadeIn(300);
-                    $(filterValue).css('display', 'flex');
+                    $('.all').hide();
+                    $(filter).show();
                 }
             });
 
-            // Modalın resim kaynağını ayarlama
-
-        });
-    </script>
-    <script>
-        $(document).ready(function() {
-
+            // Modal Veri Aktarımı
             $('.openModal').click(function() {
-
-                var name = $(this).data('name');
-                var price = $(this).data('price');
-                var info = $(this).data('info');
-                var img = $(this).data('img');
-
-                $('#modalName').text(name);
-
-                <?php if ($status[0]['fiyat'] == 1): ?>
-                    $('#modalPrice').text('₺' + price);
-                <?php endif; ?>
-
-                <?php if ($status[0]['aciklama'] == 1): ?>
-                    $('#modalInfo').text(info);
-                <?php endif; ?>
-
-                <?php if ($status[0]['resim'] == 1): ?>
-                    $('#modalImg').attr('src', img);
-                <?php endif; ?>
-
+                $('#modalName').text($(this).data('name'));
+                $('#modalPrice').text('₺' + $(this).data('price'));
+                $('#modalInfo').text($(this).data('info'));
+                $('#modalImg').attr('src', $(this).data('img'));
             });
-
         });
     </script>
-
     <!-- === BAŞLANGIÇ: Dil Seçimi === -->
     <script>
         function googleTranslateElementInit() {
@@ -440,8 +631,6 @@
 
     <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <!-- === BİTİŞ: Dil Seçimi === -->
-
-
 </body>
 
 </html>
